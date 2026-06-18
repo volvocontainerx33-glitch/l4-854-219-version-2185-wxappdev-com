@@ -1,0 +1,1801 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>历史片库-热门电影大全</title>
+  <meta name="description" content="历史片库栏目，精选历史题材影片与剧集，覆盖热门片库、口碑作品和高分内容。">
+  <meta name="keywords" content="历史片库,热门影片,电影大全,影片点播">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="./index.html" aria-label="热门电影大全">
+      <span class="brand__mark">▶</span>
+      <span class="brand__text">
+        <strong>热门电影大全</strong>
+        <small>热门影片在线点播</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">片库</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行</a>
+      <a href="./category-movies.html">电影</a>
+      <a href="./category-series.html">剧集</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开菜单">☰</button>
+  </div>
+</header>
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="index.html">首页</a><span>/</span><a href="categories.html">分类</a><span>/</span><span>历史片库</span></nav>
+    <h1>历史片库</h1>
+    <p>精选历史题材影片与剧集，覆盖热门片库、口碑作品和高分内容。</p>
+  </div>
+</section>
+<main class="section">
+  <div class="container">
+    
+<div class="filter-panel" data-filter-panel>
+  <div class="filter-panel__top">
+    <h2>历史片库筛选</h2>
+    <p class="filter-count" data-filter-count></p>
+  </div>
+  <div class="filter-grid">
+    <label>
+      <span>关键词</span>
+      <input type="search" name="q" data-filter-text placeholder="搜索片名、地区、类型、标签">
+    </label>
+    <label>
+      <span>年份</span>
+      <select data-filter-year>
+        <option value="">全部年份</option>
+        <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1983">1983</option><option value="1982">1982</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1971">1971</option><option value="1970">1970</option><option value="1968">1968</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1959">1959</option><option value="1957">1957</option><option value="1956">1956</option><option value="1954">1954</option><option value="1947">1947</option><option value="1945">1945</option><option value="1932">1932</option>
+      </select>
+    </label>
+    <label>
+      <span>地区</span>
+      <select data-filter-region>
+        <option value="">全部地区</option>
+        <option value="中国大陆">中国大陆</option><option value="美国">美国</option><option value="日本">日本</option><option value="中国香港">中国香港</option><option value="韩国">韩国</option><option value="英国">英国</option><option value="中国台湾">中国台湾</option><option value="法国">法国</option><option value="中国">中国</option><option value="香港">香港</option><option value="泰国">泰国</option><option value="西班牙">西班牙</option><option value="德国">德国</option><option value="印度">印度</option><option value="俄罗斯">俄罗斯</option><option value="意大利">意大利</option><option value="法国/比利时">法国/比利时</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国内地">中国内地</option><option value="加拿大">加拿大</option><option value="台湾">台湾</option><option value="美国/英国">美国/英国</option><option value="法国/德国">法国/德国</option><option value="英国/美国">英国/美国</option><option value="澳大利亚">澳大利亚</option><option value="法国/意大利">法国/意大利</option><option value="波兰">波兰</option><option value="印度尼西亚">印度尼西亚</option><option value="中国大陆/中国香港">中国大陆/中国香港</option><option value="巴西">巴西</option>
+      </select>
+    </label>
+    <label>
+      <span>类型</span>
+      <select data-filter-type>
+        <option value="">全部类型</option>
+        <option value="电影">电影</option><option value="剧集">剧集</option><option value="电视剧">电视剧</option><option value="动画电影">动画电影</option><option value="动画剧集">动画剧集</option><option value="综艺">综艺</option><option value="纪录片">纪录片</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="电影/动画">电影/动画</option><option value="动画">动画</option><option value="动漫">动漫</option><option value="TV剧集">TV剧集</option><option value="网剧">网剧</option><option value="剧集/动画">剧集/动画</option><option value="TV 剧集">TV 剧集</option><option value="动画短片">动画短片</option><option value="短剧">短剧</option><option value="综艺/晚会">综艺/晚会</option><option value="剧集/第一季">剧集/第一季</option><option value="美剧">美剧</option><option value="剧集 动画">剧集 动画</option><option value="电视节目/纪录片">电视节目/纪录片</option><option value="武侠/动作">武侠/动作</option><option value="动作/西部">动作/西部</option><option value="剧集 (6集)">剧集 (6集)</option><option value="综艺/真人秀">综艺/真人秀</option><option value="迷你剧">迷你剧</option><option value="动画/动态漫">动画/动态漫</option><option value="TV Series">TV Series</option>
+      </select>
+    </label>
+  </div>
+</div>
+    <div class="movie-grid">
+      
+<article class="movie-card" data-movie-card data-title="雪原孤军" data-region="俄罗斯" data-type="电影" data-year="2020" data-genre="战争,历史,剧情" data-tags="二战,狙击手,极寒,生存,苏联">
+  <a class="movie-card__cover" href="movies/movie-0061.html">
+    <img src="./61.jpg" alt="雪原孤军" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2020 · 俄罗斯</div>
+    <h3><a href="movies/movie-0061.html">雪原孤军</a></h3>
+    <p>二战末期,一名苏联女狙击手被困在芬兰冰原,她必须独自对抗一队精锐的德军滑雪猎兵,只为将一份绝密情报送出去。</p>
+    <div class="tag-list"><span>二战</span><span>狙击手</span><span>极寒</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="战美" data-region="美国" data-type="剧集" data-year="2025" data-genre="剧情/战争/历史" data-tags="越战,女性,战地记者,反战,人性">
+  <a class="movie-card__cover" href="movies/movie-0068.html">
+    <img src="./68.jpg" alt="战美" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-0068.html">战美</a></h3>
+    <p>1968年,四位来自不同背景的战地女记者在越南战场上相遇,她们用笔和镜头记录战争,也记录彼此被撕裂的命运。</p>
+    <div class="tag-list"><span>越战</span><span>女性</span><span>战地记者</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="八甲田山" data-region="日本" data-type="电影" data-year="2025" data-genre="战争,灾难,历史" data-tags="真实改编,雪地行军,极限生存,人性,悲壮">
+  <a class="movie-card__cover" href="movies/movie-0080.html">
+    <img src="./80.jpg" alt="八甲田山" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 日本</div>
+    <h3><a href="movies/movie-0080.html">八甲田山</a></h3>
+    <p>1902年,日本陆军在八甲田山进行冬季穿越训练,210人的队伍遭遇暴风雪,最终仅11人生还。</p>
+    <div class="tag-list"><span>真实改编</span><span>雪地行军</span><span>极限生存</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="大地英豪" data-region="中国大陆" data-type="电影" data-year="2026" data-genre="历史,动作" data-tags="古代战争,冷兵器,忠义">
+  <a class="movie-card__cover" href="movies/movie-0085.html">
+    <img src="./85.jpg" alt="大地英豪" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-0085.html">大地英豪</a></h3>
+    <p>北宋末年,一支民间义军为护送一块“天外陨铁”横穿敌占区,却不知它是改变文明进程的钥匙。</p>
+    <div class="tag-list"><span>古代战争</span><span>冷兵器</span><span>忠义</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="孙中山2001" data-region="中国香港/中国大陆" data-type="电影" data-year="2001" data-genre="剧情/历史/科幻" data-tags="另类历史,穿越,政治寓言,思辨">
+  <a class="movie-card__cover" href="movies/movie-0091.html">
+    <img src="./91.jpg" alt="孙中山2001" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2001 · 中国香港/中国大陆</div>
+    <h3><a href="movies/movie-0091.html">孙中山2001</a></h3>
+    <p>穿越者将孙中山带到2001年的香港,想让他看“革命成功以后”,却引发了一场关于理想与现实的多重拷问。</p>
+    <div class="tag-list"><span>另类历史</span><span>穿越</span><span>政治寓言</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="断肠草" data-region="中国台湾" data-type="电影" data-year="1987" data-genre="剧情,历史" data-tags="白色恐怖,乡土文学,父子,戒严时期">
+  <a class="movie-card__cover" href="movies/movie-0095.html">
+    <img src="./95.jpg" alt="断肠草" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1987 · 中国台湾</div>
+    <h3><a href="movies/movie-0095.html">断肠草</a></h3>
+    <p>戒严时期,一个老实本分的乡镇医师因为一本鲁迅的书,被送上军事法庭。</p>
+    <div class="tag-list"><span>白色恐怖</span><span>乡土文学</span><span>父子</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="墨西哥的回忆" data-region="墨西哥/西班牙" data-type="电影" data-year="2021" data-genre="剧情/历史/悬疑" data-tags="西班牙内战,流亡者,摄影师,底片">
+  <a class="movie-card__cover" href="movies/movie-0122.html">
+    <img src="./122.jpg" alt="墨西哥的回忆" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2021 · 墨西哥/西班牙</div>
+    <h3><a href="movies/movie-0122.html">墨西哥的回忆</a></h3>
+    <p>一位西班牙内战老兵的遗物中,发现一卷未冲洗的胶卷,记录了他在墨西哥流亡50年间从未提及的秘密。</p>
+    <div class="tag-list"><span>西班牙内战</span><span>流亡者</span><span>摄影师</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="无声的抵抗" data-region="法国/德国" data-type="电影" data-year="2023" data-genre="历史/战争" data-tags="二战,哑剧,儿童,救援,真实事件改编">
+  <a class="movie-card__cover" href="movies/movie-0146.html">
+    <img src="./146.jpg" alt="无声的抵抗" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 法国/德国</div>
+    <h3><a href="movies/movie-0146.html">无声的抵抗</a></h3>
+    <p>一位哑剧演员用身体和沉默,在纳粹眼皮底下救出了上百名犹太孤儿。</p>
+    <div class="tag-list"><span>二战</span><span>哑剧</span><span>儿童</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="苏南堡传奇" data-region="中国大陆" data-type="电视剧" data-year="2027" data-genre="古装,喜剧,历史" data-tags="边塞,市井,群像,轻喜,民族">
+  <a class="movie-card__cover" href="movies/movie-0176.html">
+    <img src="./26.jpg" alt="苏南堡传奇" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2027 · 中国大陆</div>
+    <h3><a href="movies/movie-0176.html">苏南堡传奇</a></h3>
+    <p>明朝西北边陲的苏南堡,一群不靠谱的守军与当地百姓共同演绎了一段啼笑皆非又热血感人的戍边故事。</p>
+    <div class="tag-list"><span>边塞</span><span>市井</span><span>群像</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="遥远的婚约" data-region="中国大陆" data-type="电影" data-year="2026" data-genre="剧情/爱情/历史" data-tags="知青,下乡,等待,失忆">
+  <a class="movie-card__cover" href="movies/movie-0189.html">
+    <img src="./39.jpg" alt="遥远的婚约" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-0189.html">遥远的婚约</a></h3>
+    <p>1977年,知青刘思远在返城前夜与农村女友定下婚约,然而一场洪水让他失忆,再次醒来已是四十年后。</p>
+    <div class="tag-list"><span>知青</span><span>下乡</span><span>等待</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="类人猿行动" data-region="英国" data-type="电影" data-year="2025" data-genre="历史,战争,动作" data-tags="二战,刺杀海德里希,真实事件改编,特工">
+  <a class="movie-card__cover" href="movies/movie-0230.html">
+    <img src="./80.jpg" alt="类人猿行动" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国</div>
+    <h3><a href="movies/movie-0230.html">类人猿行动</a></h3>
+    <p>两名伞兵空降被占捷克,任务代号“类人猿”——刺杀纳粹魔头海德里希,代价是陪葬整座村庄。</p>
+    <div class="tag-list"><span>二战</span><span>刺杀海德里希</span><span>真实事件改编</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="鬼平" data-region="日本" data-type="电视剧" data-year="2017" data-genre="历史/犯罪/动作" data-tags="时代剧,捕快,江户,侠义,单元剧">
+  <a class="movie-card__cover" href="movies/movie-0246.html">
+    <img src="./96.jpg" alt="鬼平" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 日本</div>
+    <h3><a href="movies/movie-0246.html">鬼平</a></h3>
+    <p>火付盗贼改方长官长谷川平藏,白天是冷酷的执法者,夜晚却以“鬼”身份给盗贼“提前放假”。</p>
+    <div class="tag-list"><span>时代剧</span><span>捕快</span><span>江户</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我们无法阻止" data-region="法国" data-type="电影" data-year="2021" data-genre="剧情,历史" data-tags="阿尔及利亚战争,纪实风格,群像,残酷青春">
+  <a class="movie-card__cover" href="movies/movie-0262.html">
+    <img src="./112.jpg" alt="我们无法阻止" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2021 · 法国</div>
+    <h3><a href="movies/movie-0262.html">我们无法阻止</a></h3>
+    <p>1961年的巴黎,一名阿尔及利亚少年在警局墙上写下“我们无法阻止”,随后消失。</p>
+    <div class="tag-list"><span>阿尔及利亚战争</span><span>纪实风格</span><span>群像</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="太平洋生死战" data-region="美国" data-type="剧集" data-year="2026" data-genre="战争/历史" data-tags="二战,写实,群像">
+  <a class="movie-card__cover" href="movies/movie-0280.html">
+    <img src="./130.jpg" alt="太平洋生死战" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 美国</div>
+    <h3><a href="movies/movie-0280.html">太平洋生死战</a></h3>
+    <p>从珍珠港到冲绳岛,三个普通士兵的眼睛里,装着一整个太平洋战争的残酷。</p>
+    <div class="tag-list"><span>二战</span><span>写实</span><span>群像</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="跤王战寇记" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="动作/历史/战争" data-tags="民国,摔跤,抗日,爱国,硬核动作">
+  <a class="movie-card__cover" href="movies/movie-0282.html">
+    <img src="./132.jpg" alt="跤王战寇记" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0282.html">跤王战寇记</a></h3>
+    <p>保定跤王面对日寇柔道高手的车轮战,他只用了一招,就让整个华北的侵略者记住了“中国跤”三个字。</p>
+    <div class="tag-list"><span>民国</span><span>摔跤</span><span>抗日</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="歌台艳史" data-region="新加坡/马来西亚" data-type="电影" data-year="2025" data-genre="歌舞/历史/爱情" data-tags="歌台文化,年代戏,女性成长,南洋风情">
+  <a class="movie-card__cover" href="movies/movie-0308.html">
+    <img src="./8.jpg" alt="歌台艳史" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 新加坡/马来西亚</div>
+    <h3><a href="movies/movie-0308.html">歌台艳史</a></h3>
+    <p>1960年代新加坡歌台,一个卖唱少女踩着碎玻璃,一步步走上华人娱乐天后宝座。</p>
+    <div class="tag-list"><span>歌台文化</span><span>年代戏</span><span>女性成长</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="全谎位登月" data-region="美国" data-type="电影" data-year="2027" data-genre="科幻/悬疑/历史" data-tags="阴谋论,登月,政治惊悚,脑洞">
+  <a class="movie-card__cover" href="movies/movie-0333.html">
+    <img src="./33.jpg" alt="全谎位登月" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2027 · 美国</div>
+    <h3><a href="movies/movie-0333.html">全谎位登月</a></h3>
+    <p>一名 CIA 特工被派去“监督”登月造假计划,却在过程中发现了真正的阴谋——月球上有东西不想让我们上去。</p>
+    <div class="tag-list"><span>阴谋论</span><span>登月</span><span>政治惊悚</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="武士惊魂" data-region="日本" data-type="电影" data-year="2023" data-genre="恐怖/历史" data-tags="武士,诅咒,古宅,剑术,怪谈">
+  <a class="movie-card__cover" href="movies/movie-0376.html">
+    <img src="./76.jpg" alt="武士惊魂" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 日本</div>
+    <h3><a href="movies/movie-0376.html">武士惊魂</a></h3>
+    <p>一名落魄武士在雨夜借宿一座荒废宅邸,发现宅中每一扇门后都关着被他杀过之人的怨念。</p>
+    <div class="tag-list"><span>武士</span><span>诅咒</span><span>古宅</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="鸟瞰万里长城" data-region="英国,中国" data-type="纪录片" data-year="2025" data-genre="纪录片,历史,自然" data-tags="航拍,无人机,遗产">
+  <a class="movie-card__cover" href="movies/movie-0377.html">
+    <img src="./77.jpg" alt="鸟瞰万里长城" loading="lazy">
+    
+    <span class="movie-card__type">纪录片</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国,中国</div>
+    <h3><a href="movies/movie-0377.html">鸟瞰万里长城</a></h3>
+    <p>首次全程无人机跟拍,揭示长城不为人知的废弃与重生。</p>
+    <div class="tag-list"><span>航拍</span><span>无人机</span><span>遗产</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="夏威夷海上大将" data-region="日本" data-type="电影" data-year="1966" data-genre="战争,历史,传记" data-tags="山本五十六,太平洋战争,珍珠港,特摄海战">
+  <a class="movie-card__cover" href="movies/movie-0379.html">
+    <img src="./79.jpg" alt="夏威夷海上大将" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1966 · 日本</div>
+    <h3><a href="movies/movie-0379.html">夏威夷海上大将</a></h3>
+    <p>山本五十六从偷袭珍珠港到所罗门殒命,以东宝超大规模特摄呈现太平洋海战,充满反战悲情。</p>
+    <div class="tag-list"><span>山本五十六</span><span>太平洋战争</span><span>珍珠港</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="万世师表" data-region="英国" data-type="电影" data-year="2024" data-genre="剧情,历史,传记" data-tags="教育本质,古典学,人生导师,英伦风骨">
+  <a class="movie-card__cover" href="movies/movie-0431.html">
+    <img src="./131.jpg" alt="万世师表" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 英国</div>
+    <h3><a href="movies/movie-0431.html">万世师表</a></h3>
+    <p>从伊顿公学到贫民窟工厂,一个古典学教授用拉丁语和希腊语,点亮了工业革命最黑暗的时代。</p>
+    <div class="tag-list"><span>教育本质</span><span>古典学</span><span>人生导师</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="兵变1938" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="战争,谍战,历史" data-tags="抗日战争,国共合作,台儿庄,情报,牺牲">
+  <a class="movie-card__cover" href="movies/movie-0455.html">
+    <img src="./5.jpg" alt="兵变1938" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0455.html">兵变1938</a></h3>
+    <p>台儿庄大战前夕,一支国民党炮兵部队突然哗变,唯一能阻止他们的竟是埋伏在军中的地下党员。</p>
+    <div class="tag-list"><span>抗日战争</span><span>国共合作</span><span>台儿庄</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="为奴十二年" data-region="美国" data-type="电影" data-year="2013" data-genre="剧情/传记/历史" data-tags="黑奴制度,自由抗争,人性救赎">
+  <a class="movie-card__cover" href="movies/movie-0481.html">
+    <img src="./31.jpg" alt="为奴十二年" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2013 · 美国</div>
+    <h3><a href="movies/movie-0481.html">为奴十二年</a></h3>
+    <p>本是自由黑人的他,被骗至南方经历了十二年非人的奴隶生涯,唯一支撑他的是妻儿的照片。</p>
+    <div class="tag-list"><span>黑奴制度</span><span>自由抗争</span><span>人性救赎</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="追忆维茨托克" data-region="德国/波兰" data-type="电影" data-year="2023" data-genre="剧情、历史、战争" data-tags="二战,犹太作曲家,记忆,音乐,失踪">
+  <a class="movie-card__cover" href="movies/movie-0516.html">
+    <img src="./66.jpg" alt="追忆维茨托克" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 德国/波兰</div>
+    <h3><a href="movies/movie-0516.html">追忆维茨托克</a></h3>
+    <p>一位老年痴呆症患者反复哼唱一首无人听过的曲子,孙女追查后发现,这是1942年维茨托克集中营里,一首从未被记录的交响乐。</p>
+    <div class="tag-list"><span>二战</span><span>犹太作曲家</span><span>记忆</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="少年师爷之智慧丝路" data-region="中国大陆" data-type="动画剧集" data-year="2025" data-genre="冒险,历史,悬疑" data-tags="丝绸之路,少年侦探,国风,解谜,成长">
+  <a class="movie-card__cover" href="movies/movie-0530.html">
+    <img src="./80.jpg" alt="少年师爷之智慧丝路" loading="lazy">
+    
+    <span class="movie-card__type">动画剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-0530.html">少年师爷之智慧丝路</a></h3>
+    <p>天才少年师爷踏上古老丝绸之路,用智慧破解连环谜案,却发现每颗宝石背后都藏着一个惊天秘密。</p>
+    <div class="tag-list"><span>丝绸之路</span><span>少年侦探</span><span>国风</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="温生才炸孚琦" data-region="香港" data-type="电影" data-year="2024" data-genre="历史,动作,传记" data-tags="辛亥革命,暗杀,南洋,民族英雄">
+  <a class="movie-card__cover" href="movies/movie-0537.html">
+    <img src="./87.jpg" alt="温生才炸孚琦" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 香港</div>
+    <h3><a href="movies/movie-0537.html">温生才炸孚琦</a></h3>
+    <p>1911年,南洋华侨温生才只身刺杀广州将军孚琦,一颗炸弹炸响了辛亥革命的前奏。</p>
+    <div class="tag-list"><span>辛亥革命</span><span>暗杀</span><span>南洋</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="马来亚" data-region="马来西亚" data-type="电影" data-year="2023" data-genre="历史/战争/剧情" data-tags="二战,丛林战,华人抗日,兄弟情,殖民地">
+  <a class="movie-card__cover" href="movies/movie-0546.html">
+    <img src="./96.jpg" alt="马来亚" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 马来西亚</div>
+    <h3><a href="movies/movie-0546.html">马来亚</a></h3>
+    <p>1941年,两个华裔兄弟在马来亚丛林中加入抗日游击队,却因信念分歧走向对立。</p>
+    <div class="tag-list"><span>二战</span><span>丛林战</span><span>华人抗日</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="无字碑歌:武则天传" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="历史、传记、古装" data-tags="武则天,女皇,权谋,史诗">
+  <a class="movie-card__cover" href="movies/movie-0554.html">
+    <img src="./104.jpg" alt="无字碑歌:武则天传" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0554.html">无字碑歌:武则天传</a></h3>
+    <p>82岁的武则天临终前,让上官婉儿记录她口述的一生,这是一段关于权力与孤独的忏悔录。</p>
+    <div class="tag-list"><span>武则天</span><span>女皇</span><span>权谋</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="犹太狮子" data-region="以色列/美国" data-type="电影" data-year="2017" data-genre="历史/战争" data-tags="二战,犹太,游击队,反抗,家族">
+  <a class="movie-card__cover" href="movies/movie-0557.html">
+    <img src="./107.jpg" alt="犹太狮子" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 以色列/美国</div>
+    <h3><a href="movies/movie-0557.html">犹太狮子</a></h3>
+    <p>1941年东欧,犹太猎人父子三人撕掉黄色星标,躲进原始森林组建游击队,成为纳粹口中的“狮子”。</p>
+    <div class="tag-list"><span>二战</span><span>犹太</span><span>游击队</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="霍家拳之铁臂娇娃2" data-region="中国大陆" data-type="电影" data-year="2027" data-genre="动作/历史/剧情" data-tags="民国,女拳师,抗日,武术,爽片">
+  <a class="movie-card__cover" href="movies/movie-0577.html">
+    <img src="./127.jpg" alt="霍家拳之铁臂娇娃2" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2027 · 中国大陆</div>
+    <h3><a href="movies/movie-0577.html">霍家拳之铁臂娇娃2</a></h3>
+    <p>霍家拳传人铁臂阿娇被陷害入狱,在监狱中她整合各路女囚,组建了一支抗日女子敢死队。</p>
+    <div class="tag-list"><span>民国</span><span>女拳师</span><span>抗日</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="柏林别动队" data-region="德国" data-type="剧集" data-year="2024" data-genre="动作/谍战/历史" data-tags="二战,犹太,复仇,小队,爽剧">
+  <a class="movie-card__cover" href="movies/movie-0579.html">
+    <img src="./129.jpg" alt="柏林别动队" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 德国</div>
+    <h3><a href="movies/movie-0579.html">柏林别动队</a></h3>
+    <p>二战末期,五个从集中营逃出的犹太人组成小队,要在柏林给纳粹头目来场私人审判。</p>
+    <div class="tag-list"><span>二战</span><span>犹太</span><span>复仇</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="测量世界" data-region="德国" data-type="电影" data-year="2023" data-genre="传记,历史,剧情" data-tags="洪堡,高斯,科学精神">
+  <a class="movie-card__cover" href="movies/movie-0580.html">
+    <img src="./130.jpg" alt="测量世界" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 德国</div>
+    <h3><a href="movies/movie-0580.html">测量世界</a></h3>
+    <p>数学家高斯与探险家洪堡,一个用大脑测量宇宙,一个用脚步丈量大地。</p>
+    <div class="tag-list"><span>洪堡</span><span>高斯</span><span>科学精神</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="渡海征蛮" data-region="中国大陆" data-type="电影" data-year="2027" data-genre="历史/战争/古装" data-tags="海战,民族融合,史诗">
+  <a class="movie-card__cover" href="movies/movie-0593.html">
+    <img src="./143.jpg" alt="渡海征蛮" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2027 · 中国大陆</div>
+    <h3><a href="movies/movie-0593.html">渡海征蛮</a></h3>
+    <p>公元1279年,南宋残军在崖山海战失败后,一支偏师跨海远遁,在南方孤岛上与土著蛮族展开生存之战。</p>
+    <div class="tag-list"><span>海战</span><span>民族融合</span><span>史诗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="珀利克珊妮" data-region="法国" data-type="电影" data-year="2023" data-genre="剧情/历史/战争" data-tags="中世纪,圣女,女性力量,史诗,宗教">
+  <a class="movie-card__cover" href="movies/movie-0636.html">
+    <img src="./36.jpg" alt="珀利克珊妮" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 法国</div>
+    <h3><a href="movies/movie-0636.html">珀利克珊妮</a></h3>
+    <p>英法百年战争末期,一位目不识丁的牧羊女珀利克珊妮,如何奇迹般地带领法军扭转战局并最终被封圣。</p>
+    <div class="tag-list"><span>中世纪</span><span>圣女</span><span>女性力量</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="沉默之墙" data-region="西班牙" data-type="电影" data-year="2025" data-genre="剧情,悬疑,历史" data-tags="佛朗哥时期,冷峻,记忆挖掘,政治惊悚">
+  <a class="movie-card__cover" href="movies/movie-0648.html">
+    <img src="./48.jpg" alt="沉默之墙" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 西班牙</div>
+    <h3><a href="movies/movie-0648.html">沉默之墙</a></h3>
+    <p>建筑系学生安娜在测绘一堵古老的修道院墙壁时,发现墙体内封存着一段关于佛朗哥时期失踪者的录音。</p>
+    <div class="tag-list"><span>佛朗哥时期</span><span>冷峻</span><span>记忆挖掘</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="王冠的游戏:都铎家族" data-region="英国" data-type="TV 剧集" data-year="2023" data-genre="历史,剧情,宫廷" data-tags="英国王室,权谋,宗教改革,女性">
+  <a class="movie-card__cover" href="movies/movie-0654.html">
+    <img src="./54.jpg" alt="王冠的游戏:都铎家族" loading="lazy">
+    
+    <span class="movie-card__type">TV 剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 英国</div>
+    <h3><a href="movies/movie-0654.html">王冠的游戏:都铎家族</a></h3>
+    <p>亨利八世死后,三位子女与一位外戚用火与血争夺都铎王朝唯一铁王座。</p>
+    <div class="tag-list"><span>英国王室</span><span>权谋</span><span>宗教改革</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="烈血暹士" data-region="泰国" data-type="电影" data-year="2000" data-genre="动作/历史/战争" data-tags="泰拳,缅甸入侵,村庄,复仇,民族英雄">
+  <a class="movie-card__cover" href="movies/movie-0655.html">
+    <img src="./55.jpg" alt="烈血暹士" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2000 · 泰国</div>
+    <h3><a href="movies/movie-0655.html">烈血暹士</a></h3>
+    <p>1767年缅甸大军压境,一个泰国村庄的农民们用泰拳和原始武器誓死守卫家园。</p>
+    <div class="tag-list"><span>泰拳</span><span>缅甸入侵</span><span>村庄</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="三剑侠之子" data-region="法国/意大利" data-type="电影" data-year="2025" data-genre="动作、冒险、历史" data-tags="剑客,复仇,遗产">
+  <a class="movie-card__cover" href="movies/movie-0662.html">
+    <img src="./62.jpg" alt="三剑侠之子" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 法国/意大利</div>
+    <h3><a href="movies/movie-0662.html">三剑侠之子</a></h3>
+    <p>二十年后,三个老剑客的儿子继承父业,却发现父亲们的荣耀背后,藏着一段肮脏的殖民史。</p>
+    <div class="tag-list"><span>剑客</span><span>复仇</span><span>遗产</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="海难1890" data-region="土耳其,日本" data-type="电影" data-year="2026" data-genre="历史,灾难" data-tags="真实改编,沉船,跨文化,救援">
+  <a class="movie-card__cover" href="movies/movie-0670.html">
+    <img src="./70.jpg" alt="海难1890" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 土耳其,日本</div>
+    <h3><a href="movies/movie-0670.html">海难1890</a></h3>
+    <p>1890年,一艘土耳其军舰在日本海域沉没,幸存水手在逃难途中,发现了日本渔村隐藏的麻风病人集中营。</p>
+    <div class="tag-list"><span>真实改编</span><span>沉船</span><span>跨文化</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="夏威夷凯乌兰妮公主" data-region="美国" data-type="动画电影" data-year="2025" data-genre="剧情,历史,音乐" data-tags="真实改编,公主,殖民历史,女性">
+  <a class="movie-card__cover" href="movies/movie-0680.html">
+    <img src="./80.jpg" alt="夏威夷凯乌兰妮公主" loading="lazy">
+    
+    <span class="movie-card__type">动画电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-0680.html">夏威夷凯乌兰妮公主</a></h3>
+    <p>最后的夏威夷公主爱上了一位来自敌国的平民记者,她要如何在爱情与即将被吞没的王国之间做选择?</p>
+    <div class="tag-list"><span>真实改编</span><span>公主</span><span>殖民历史</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="恰同学少年" data-region="中国大陆" data-type="电视剧" data-year="2025" data-genre="历史,励志,青春" data-tags="青年伟人,民国校园,理想主义,风华正茂,红色青春">
+  <a class="movie-card__cover" href="movies/movie-0700.html">
+    <img src="./100.jpg" alt="恰同学少年" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-0700.html">恰同学少年</a></h3>
+    <p>聚焦在第一师范求学的五年,展现一群意气风发的青年如何“改造中国与世界”的激情岁月。</p>
+    <div class="tag-list"><span>青年伟人</span><span>民国校园</span><span>理想主义</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="无知的声音" data-region="墨西哥/美国" data-type="电影" data-year="2022" data-genre="剧情/历史/犯罪" data-tags="黑色电影,聋哑人,贩毒集团,真相调查,无声叙事">
+  <a class="movie-card__cover" href="movies/movie-0727.html">
+    <img src="./127.jpg" alt="无知的声音" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2022 · 墨西哥/美国</div>
+    <h3><a href="movies/movie-0727.html">无知的声音</a></h3>
+    <p>一位失聪的报社校对员通过唇语“听”到了一起惊天谋杀案的密谋,却没人相信一个聋子。</p>
+    <div class="tag-list"><span>黑色电影</span><span>聋哑人</span><span>贩毒集团</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="江南1970" data-region="韩国" data-type="电影" data-year="2022" data-genre="剧情/动作/历史" data-tags="黑帮,首尔开发,兄弟反目,暴力美学">
+  <a class="movie-card__cover" href="movies/movie-0735.html">
+    <img src="./135.jpg" alt="江南1970" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2022 · 韩国</div>
+    <h3><a href="movies/movie-0735.html">江南1970</a></h3>
+    <p>1970年首尔江南开发前夕,两个拾荒兄弟为了土地一夜之间成了仇人。</p>
+    <div class="tag-list"><span>黑帮</span><span>首尔开发</span><span>兄弟反目</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="教会" data-region="意大利/法国" data-type="电影" data-year="2022" data-genre="剧情,历史,宗教" data-tags="传教士,殖民,赎罪,雨林,仪式">
+  <a class="movie-card__cover" href="movies/movie-0747.html">
+    <img src="./147.jpg" alt="教会" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2022 · 意大利/法国</div>
+    <h3><a href="movies/movie-0747.html">教会</a></h3>
+    <p>18世纪,一名奴隶贩子在亚马逊雨林修道士的感召下悔改,却要面对教会与殖民军的双重屠刀。</p>
+    <div class="tag-list"><span>传教士</span><span>殖民</span><span>赎罪</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="放荡的女皇" data-region="俄罗斯" data-type="电影" data-year="2026" data-genre="历史、剧情" data-tags="宫廷,权力,女性,阴谋,俄版武则天">
+  <a class="movie-card__cover" href="movies/movie-0762.html">
+    <img src="./12.jpg" alt="放荡的女皇" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 俄罗斯</div>
+    <h3><a href="movies/movie-0762.html">放荡的女皇</a></h3>
+    <p>叶卡捷琳娜二世年轻时被宫廷嘲笑“放荡”,她却用床笫之欢拉拢近卫军发动政变。</p>
+    <div class="tag-list"><span>宫廷</span><span>权力</span><span>女性</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="最后的王" data-region="英国" data-type="电视剧" data-year="2026" data-genre="历史/战争" data-tags="中世纪,权谋,冷兵器,史诗感">
+  <a class="movie-card__cover" href="movies/movie-0776.html">
+    <img src="./26.jpg" alt="最后的王" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 英国</div>
+    <h3><a href="movies/movie-0776.html">最后的王</a></h3>
+    <p>被流放的王子成了海盗奴隶,他必须带领一群异教徒去夺回他那早已不存在的王国。</p>
+    <div class="tag-list"><span>中世纪</span><span>权谋</span><span>冷兵器</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="中国战役" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="纪录片、历史、战争" data-tags="抗日战争,全景式,真实还原,民族记忆,群像">
+  <a class="movie-card__cover" href="movies/movie-0802.html">
+    <img src="./52.jpg" alt="中国战役" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0802.html">中国战役</a></h3>
+    <p>从1931到1945,用22个普通中国人的故事,拼出抗日战争的全景图。</p>
+    <div class="tag-list"><span>抗日战争</span><span>全景式</span><span>真实还原</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="红娘1976" data-region="中国台湾" data-type="电影" data-year="2023" data-genre="剧情、历史、爱情" data-tags="年代,书信,暗恋,时代悲剧,女性">
+  <a class="movie-card__cover" href="movies/movie-0819.html">
+    <img src="./69.jpg" alt="红娘1976" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国台湾</div>
+    <h3><a href="movies/movie-0819.html">红娘1976</a></h3>
+    <p>1976年,一个害羞的邮差爱上了替人写情书的女孩,自己却将爱意藏进一封封未寄出的信里。</p>
+    <div class="tag-list"><span>年代</span><span>书信</span><span>暗恋</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="种植园主" data-region="巴西" data-type="电影" data-year="2019" data-genre="剧情/历史/惊悚" data-tags="现代奴隶制,土地争端,血色经济">
+  <a class="movie-card__cover" href="movies/movie-0829.html">
+    <img src="./79.jpg" alt="种植园主" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2019 · 巴西</div>
+    <h3><a href="movies/movie-0829.html">种植园主</a></h3>
+    <p>亚马逊深处的庄园主发现,他继承的不仅是万亩良田,还有一群被契约困住的“鬼魂”。</p>
+    <div class="tag-list"><span>现代奴隶制</span><span>土地争端</span><span>血色经济</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="英雄连" data-region="中国大陆" data-type="剧集" data-year="2022" data-genre="战争,历史,动作" data-tags="抗美援朝,穿插连,兄弟兵,阵地争夺,真实改编">
+  <a class="movie-card__cover" href="movies/movie-0842.html">
+    <img src="./92.jpg" alt="英雄连" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2022 · 中国大陆</div>
+    <h3><a href="movies/movie-0842.html">英雄连</a></h3>
+    <p>抗美援朝战场上,一支只剩下七人的“英雄连”奉命坚守高地,拖住敌军一个师。</p>
+    <div class="tag-list"><span>抗美援朝</span><span>穿插连</span><span>兄弟兵</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="刺刀肉搏战" data-region="俄罗斯" data-type="电影" data-year="2024" data-genre="战争/动作/历史" data-tags="二战东线,白刃战,苏德视角,战场写实,兄弟连">
+  <a class="movie-card__cover" href="movies/movie-0858.html">
+    <img src="./108.jpg" alt="刺刀肉搏战" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 俄罗斯</div>
+    <h3><a href="movies/movie-0858.html">刺刀肉搏战</a></h3>
+    <p>1943年,一名苏军新兵和一名德军老兵在斯大林格勒的废墟中,为了同一本日记展开了三天三夜的生死追杀。</p>
+    <div class="tag-list"><span>二战东线</span><span>白刃战</span><span>苏德视角</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="释迦传" data-region="日本" data-type="电影" data-year="2026" data-genre="传记/历史/宗教" data-tags="佛陀,修行,悟道,史诗,人性">
+  <a class="movie-card__cover" href="movies/movie-0896.html">
+    <img src="./146.jpg" alt="释迦传" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 日本</div>
+    <h3><a href="movies/movie-0896.html">释迦传</a></h3>
+    <p>从迦毗罗卫国的王子到菩提树下的觉悟者,再现释迦牟尼寻求解脱之道的传奇一生。</p>
+    <div class="tag-list"><span>佛陀</span><span>修行</span><span>悟道</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="战争姐妹" data-region="法国/德国" data-type="电影" data-year="2024" data-genre="剧情/战争/历史" data-tags="二战,女性,抵抗组织,姐妹情">
+  <a class="movie-card__cover" href="movies/movie-0964.html">
+    <img src="./64.jpg" alt="战争姐妹" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 法国/德国</div>
+    <h3><a href="movies/movie-0964.html">战争姐妹</a></h3>
+    <p>二战末期,一对犹太姐妹一个加入抵抗军,一个成为德军翻译,却在不知情中爱上同一个人。</p>
+    <div class="tag-list"><span>二战</span><span>女性</span><span>抵抗组织</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="雪琳娘" data-region="法国" data-type="剧集" data-year="2025" data-genre="历史/动作/冒险" data-tags="法国大革命,女性侠盗,烧贵族庄园,浪漫革命,断头台美学">
+  <a class="movie-card__cover" href="movies/movie-0981.html">
+    <img src="./81.jpg" alt="雪琳娘" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 法国</div>
+    <h3><a href="movies/movie-0981.html">雪琳娘</a></h3>
+    <p>1793年,贵族少女目睹全家被送上断头台,她戴上父亲留下的男装,成为专杀“革命暴徒”的侠盗“雪琳娘”。</p>
+    <div class="tag-list"><span>法国大革命</span><span>女性侠盗</span><span>烧贵族庄园</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="夜莺之歌" data-region="德国/波兰" data-type="电影" data-year="2026" data-genre="剧情,历史,音乐" data-tags="二战,奥斯维辛,女囚,音乐救赎">
+  <a class="movie-card__cover" href="movies/movie-0987.html">
+    <img src="./87.jpg" alt="夜莺之歌" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 德国/波兰</div>
+    <h3><a href="movies/movie-0987.html">夜莺之歌</a></h3>
+    <p>在奥斯维辛集中营,一位犹太女歌手被迫为纳粹军官演唱,她决定将每一次歌唱都变成对死亡的抵抗。</p>
+    <div class="tag-list"><span>二战</span><span>奥斯维辛</span><span>女囚</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="第一个国王" data-region="英国/美国" data-type="电影" data-year="2025" data-genre="历史/传记/战争" data-tags="古不列颠,传奇,王权,史诗">
+  <a class="movie-card__cover" href="movies/movie-1013.html">
+    <img src="./113.jpg" alt="第一个国王" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国/美国</div>
+    <h3><a href="movies/movie-1013.html">第一个国王</a></h3>
+    <p>在亚瑟王之前,有一个被历史抹去的王。他用诗歌统一了部落,却在加冕礼上被自己的竖琴弦勒死。</p>
+    <div class="tag-list"><span>古不列颠</span><span>传奇</span><span>王权</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="理发师2010" data-region="中国大陆" data-type="电影" data-year="2010" data-genre="剧情/历史" data-tags="战争,手艺,身份错位">
+  <a class="movie-card__cover" href="movies/movie-1040.html">
+    <img src="./140.jpg" alt="理发师2010" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2010 · 中国大陆</div>
+    <h3><a href="movies/movie-1040.html">理发师2010</a></h3>
+    <p>乱世中,一名称霸上海滩的理发师因给大汉奸剃头,被迫卷入一场无法脱身的谍战骗局。</p>
+    <div class="tag-list"><span>战争</span><span>手艺</span><span>身份错位</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="黑太阳731之死亡列车" data-region="日本/中国大陆" data-type="电影" data-year="2025" data-genre="恐怖/历史/战争" data-tags="惊悚,人体实验,末日列车">
+  <a class="movie-card__cover" href="movies/movie-1095.html">
+    <img src="./45.jpg" alt="黑太阳731之死亡列车" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 日本/中国大陆</div>
+    <h3><a href="movies/movie-1095.html">黑太阳731之死亡列车</a></h3>
+    <p>1945年,载满731部队秘密资料的装甲列车在逃亡途中发生“生化泄露”,车上所有人变成了半人半尸的怪物。</p>
+    <div class="tag-list"><span>惊悚</span><span>人体实验</span><span>末日列车</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="一锁五十年" data-region="中国大陆" data-type="剧集" data-year="2025" data-genre="剧情,历史" data-tags="年代剧,承诺,胡同">
+  <a class="movie-card__cover" href="movies/movie-1109.html">
+    <img src="./59.jpg" alt="一锁五十年" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1109.html">一锁五十年</a></h3>
+    <p>一把老锁锁住了一间密室,也锁住了几个家庭跨越五十年的恩怨与守护。</p>
+    <div class="tag-list"><span>年代剧</span><span>承诺</span><span>胡同</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="最后的亚历山大" data-region="英国/美国" data-type="电影" data-year="2025" data-genre="剧情/历史/冒险" data-tags="史诗,帝王,考古,平行宇宙,宿命">
+  <a class="movie-card__cover" href="movies/movie-1115.html">
+    <img src="./65.jpg" alt="最后的亚历山大" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国/美国</div>
+    <h3><a href="movies/movie-1115.html">最后的亚历山大</a></h3>
+    <p>病入膏肓的亚历山大帝在巴比伦喝下最后一杯酒后,灵魂穿越到了现代一名被解雇的考古学家身上。</p>
+    <div class="tag-list"><span>史诗</span><span>帝王</span><span>考古</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="高地人:复仇之旅" data-region="英国/加拿大" data-type="动画电影" data-year="2025" data-genre="动作/奇幻/历史" data-tags="苏格兰,不死者,剑斗,穿越历史">
+  <a class="movie-card__cover" href="movies/movie-1116.html">
+    <img src="./66.jpg" alt="高地人:复仇之旅" loading="lazy">
+    
+    <span class="movie-card__type">动画电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国/加拿大</div>
+    <h3><a href="movies/movie-1116.html">高地人:复仇之旅</a></h3>
+    <p>苏格兰高地不死战士穿越两千年,只为杀死引发所有战争的神秘同族。</p>
+    <div class="tag-list"><span>苏格兰</span><span>不死者</span><span>剑斗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="凤阳小子朱元璋" data-region="中国大陆" data-type="剧集" data-year="2023" data-genre="历史/传记/喜剧" data-tags="少年朱元璋,乞丐皇帝,逆袭成长">
+  <a class="movie-card__cover" href="movies/movie-1139.html">
+    <img src="./89.jpg" alt="凤阳小子朱元璋" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国大陆</div>
+    <h3><a href="movies/movie-1139.html">凤阳小子朱元璋</a></h3>
+    <p>放牛娃朱元璋的逆袭之路,但不是权谋剧,而是一部底层生存喜剧。</p>
+    <div class="tag-list"><span>少年朱元璋</span><span>乞丐皇帝</span><span>逆袭成长</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="鸦片战争演义" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="历史/战争" data-tags="宏大叙事,近代史,群像剧">
+  <a class="movie-card__cover" href="movies/movie-1160.html">
+    <img src="./110.jpg" alt="鸦片战争演义" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1160.html">鸦片战争演义</a></h3>
+    <p>从林则徐禁烟到南京条约,全景式展现那场改变国运的战争,聚焦庙堂与江湖的众生相。</p>
+    <div class="tag-list"><span>宏大叙事</span><span>近代史</span><span>群像剧</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="五月五之战" data-region="墨西哥/美国" data-type="电影" data-year="2025" data-genre="战争/历史/动作" data-tags="墨西哥,法军,游击战,以少胜多,民族精神">
+  <a class="movie-card__cover" href="movies/movie-1162.html">
+    <img src="./112.jpg" alt="五月五之战" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 墨西哥/美国</div>
+    <h3><a href="movies/movie-1162.html">五月五之战</a></h3>
+    <p>1862年,四千墨西哥民兵迎战八千法军精锐,他们的武器是砍刀和信仰。</p>
+    <div class="tag-list"><span>墨西哥</span><span>法军</span><span>游击战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="德州崛起" data-region="美国" data-type="剧集" data-year="2015" data-genre="西部/历史" data-tags="德州独立,西部拓荒,战争,真实历史,史诗">
+  <a class="movie-card__cover" href="movies/movie-1166.html">
+    <img src="./116.jpg" alt="德州崛起" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2015 · 美国</div>
+    <h3><a href="movies/movie-1166.html">德州崛起</a></h3>
+    <p>19世纪初,一群冒险者深入墨西哥领土德克萨斯,为土地和自由掀起独立战争。</p>
+    <div class="tag-list"><span>德州独立</span><span>西部拓荒</span><span>战争</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我的美国心" data-region="美国" data-type="电影" data-year="2025" data-genre="历史、剧情" data-tags="移民,黑帮,20世纪,身份,史诗">
+  <a class="movie-card__cover" href="movies/movie-1177.html">
+    <img src="./127.jpg" alt="我的美国心" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-1177.html">我的美国心</a></h3>
+    <p>一个爱尔兰移民家庭三代人,从纽约黑帮底层到登上政治权力顶峰,跨度六十年的黑帮史诗。</p>
+    <div class="tag-list"><span>移民</span><span>黑帮</span><span>20世纪</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="浮世画家" data-region="日本" data-type="电影" data-year="2025" data-genre="剧情/历史" data-tags="战后,艺术与罪,记忆篡改,文学改编">
+  <a class="movie-card__cover" href="movies/movie-1181.html">
+    <img src="./131.jpg" alt="浮世画家" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 日本</div>
+    <h3><a href="movies/movie-1181.html">浮世画家</a></h3>
+    <p>二战时为军部画宣传画的画家,战后成了最受追捧的“反战大师”,但他决定在画展上公开所有真相。</p>
+    <div class="tag-list"><span>战后</span><span>艺术与罪</span><span>记忆篡改</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="伽利略传" data-region="德国/英国" data-type="电影" data-year="1975" data-genre="传记,历史" data-tags="科学伦理,舞台改编,布莱希特,思想史">
+  <a class="movie-card__cover" href="movies/movie-1202.html">
+    <img src="./2.jpg" alt="伽利略传" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1975 · 德国/英国</div>
+    <h3><a href="movies/movie-1202.html">伽利略传</a></h3>
+    <p>他被教会逼迫放弃日心说,却在暗中完成了《关于两种科学的对话》,出卖肉体是为了保全头颅。</p>
+    <div class="tag-list"><span>科学伦理</span><span>舞台改编</span><span>布莱希特</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="梅兰芳" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="传记,剧情,历史" data-tags="京剧大师,抗战气节,艺术与时代">
+  <a class="movie-card__cover" href="movies/movie-1212.html">
+    <img src="./12.jpg" alt="梅兰芳" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1212.html">梅兰芳</a></h3>
+    <p>影片聚焦梅兰芳1937至1945年抗战期间蓄须明志、拒绝为侵略者演出的八年艰难岁月。</p>
+    <div class="tag-list"><span>京剧大师</span><span>抗战气节</span><span>艺术与时代</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="后宫1985" data-region="中国香港/英国" data-type="电影" data-year="2023" data-genre="剧情/历史/女性" data-tags="宫斗,殖民地,女同,报纸,末代">
+  <a class="movie-card__cover" href="movies/movie-1228.html">
+    <img src="./28.jpg" alt="后宫1985" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国香港/英国</div>
+    <h3><a href="movies/movie-1228.html">后宫1985</a></h3>
+    <p>1985年的香港,一名报社女记者潜入最后一批清朝遗老的后宅,发现一场无声的“后宫战争”仍在继续。</p>
+    <div class="tag-list"><span>宫斗</span><span>殖民地</span><span>女同</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="沙普的围攻" data-region="英国" data-type="电影" data-year="2025" data-genre="动作,历史,战争" data-tags="拿破仑战争,守城战,孤军,以少胜多,硬汉">
+  <a class="movie-card__cover" href="movies/movie-1240.html">
+    <img src="./40.jpg" alt="沙普的围攻" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国</div>
+    <h3><a href="movies/movie-1240.html">沙普的围攻</a></h3>
+    <p>滑铁卢后,沙普带一队残兵被围困古堡,面对三千法军,他决定用陷阱反杀。</p>
+    <div class="tag-list"><span>拿破仑战争</span><span>守城战</span><span>孤军</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="王朝的陷落" data-region="中国大陆" data-type="剧集" data-year="2027" data-genre="历史,权谋,战争" data-tags="宫斗,史诗,反转">
+  <a class="movie-card__cover" href="movies/movie-1242.html">
+    <img src="./42.jpg" alt="王朝的陷落" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2027 · 中国大陆</div>
+    <h3><a href="movies/movie-1242.html">王朝的陷落</a></h3>
+    <p>垂死皇帝的三个儿子必须在七天内决定谁来继承,否则敌国大军将踏平王都。</p>
+    <div class="tag-list"><span>宫斗</span><span>史诗</span><span>反转</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="伯爵夫人的耳环" data-region="法国/意大利" data-type="电影" data-year="2023" data-genre="剧情,爱情,历史" data-tags="珠宝,轮回,欲望,上流社会">
+  <a class="movie-card__cover" href="movies/movie-1259.html">
+    <img src="./59.jpg" alt="伯爵夫人的耳环" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 法国/意大利</div>
+    <h3><a href="movies/movie-1259.html">伯爵夫人的耳环</a></h3>
+    <p>一对耳环在二战前的欧洲上流社会流转,串起了三个女人被诅咒的命运与欲望。</p>
+    <div class="tag-list"><span>珠宝</span><span>轮回</span><span>欲望</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="不羁骑士" data-region="英国" data-type="电影" data-year="2025" data-genre="剧情/历史" data-tags="中世纪,骑士精神,同性,颠覆传统">
+  <a class="movie-card__cover" href="movies/movie-1261.html">
+    <img src="./61.jpg" alt="不羁骑士" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 英国</div>
+    <h3><a href="movies/movie-1261.html">不羁骑士</a></h3>
+    <p>一个被剥夺继承权的贵族之女,女扮男装成为骑士,却爱上了自己宣誓守护的王子。</p>
+    <div class="tag-list"><span>中世纪</span><span>骑士精神</span><span>同性</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="橘衫男子" data-region="英国" data-type="剧集" data-year="2017" data-genre="爱情,剧情,历史" data-tags="同性恋,跨时代,二战,家族秘密,英剧">
+  <a class="movie-card__cover" href="movies/movie-1269.html">
+    <img src="./69.jpg" alt="橘衫男子" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 英国</div>
+    <h3><a href="movies/movie-1269.html">橘衫男子</a></h3>
+    <p>一幅画着橘衫男子的油画,跨越三代人,串联起二战至今英国同志隐秘而坚韧的爱情史。</p>
+    <div class="tag-list"><span>同性恋</span><span>跨时代</span><span>二战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="黑帆第三季" data-region="美国" data-type="剧集" data-year="2016" data-genre="动作/冒险/历史" data-tags="海盗,权力游戏,宝藏,拿骚,Flint船长">
+  <a class="movie-card__cover" href="movies/movie-1273.html">
+    <img src="./73.jpg" alt="黑帆第三季" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2016 · 美国</div>
+    <h3><a href="movies/movie-1273.html">黑帆第三季</a></h3>
+    <p>Flint与Silver在骷髅地找到了宝藏,却发现要守住它比夺取它残酷一万倍。</p>
+    <div class="tag-list"><span>海盗</span><span>权力游戏</span><span>宝藏</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="肖劲光大将" data-region="中国大陆" data-type="电视剧" data-year="2023" data-genre="传记/历史/战争" data-tags="革命历史,海军之父,人物传记,硬核">
+  <a class="movie-card__cover" href="movies/movie-1282.html">
+    <img src="./82.jpg" alt="肖劲光大将" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国大陆</div>
+    <h3><a href="movies/movie-1282.html">肖劲光大将</a></h3>
+    <p>从北伐到新中国海军奠基,全景展现肖劲光大将“旱鸭子”变“海军司令”的传奇一生。</p>
+    <div class="tag-list"><span>革命历史</span><span>海军之父</span><span>人物传记</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="哈森与加米拉" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="爱情/历史/剧情" data-tags="新疆,家族恩怨,边疆,抗争">
+  <a class="movie-card__cover" href="movies/movie-1291.html">
+    <img src="./91.jpg" alt="哈森与加米拉" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1291.html">哈森与加米拉</a></h3>
+    <p>上世纪边疆,牧场主的女儿与穷牧工相爱,却因部落冲突被迫走上逃亡之路。</p>
+    <div class="tag-list"><span>新疆</span><span>家族恩怨</span><span>边疆</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="秦时明月特别篇之罗生堂下" data-region="中国大陆" data-type="动画电影" data-year="2014" data-genre="武侠/历史/奇幻" data-tags="阴阳家,少司命,前传">
+  <a class="movie-card__cover" href="movies/movie-1306.html">
+    <img src="./106.jpg" alt="秦时明月特别篇之罗生堂下" loading="lazy">
+    
+    <span class="movie-card__type">动画电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2014 · 中国大陆</div>
+    <h3><a href="movies/movie-1306.html">秦时明月特别篇之罗生堂下</a></h3>
+    <p>神秘少女小灵的死亡,揭开了阴阳家“少司命”称号背后的血腥传承。</p>
+    <div class="tag-list"><span>阴阳家</span><span>少司命</span><span>前传</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="苦海余生" data-region="德国" data-type="电影" data-year="2024" data-genre="剧情/历史" data-tags="难民,海上,人性">
+  <a class="movie-card__cover" href="movies/movie-1314.html">
+    <img src="./114.jpg" alt="苦海余生" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 德国</div>
+    <h3><a href="movies/movie-1314.html">苦海余生</a></h3>
+    <p>一艘超载的偷渡船在地中海失去动力,乘客们必须决定每隔几小时抛弃一人。</p>
+    <div class="tag-list"><span>难民</span><span>海上</span><span>人性</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="萨尔瓦托雷之死" data-region="意大利" data-type="电影" data-year="2026" data-genre="悬疑,历史,传记" data-tags="黑手党,线人,政治阴谋">
+  <a class="movie-card__cover" href="movies/movie-1323.html">
+    <img src="./123.jpg" alt="萨尔瓦托雷之死" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 意大利</div>
+    <h3><a href="movies/movie-1323.html">萨尔瓦托雷之死</a></h3>
+    <p>第一个公开作证反对黑手党的西西里人,在法庭上留下神秘微笑后离奇暴毙,真相成谜。</p>
+    <div class="tag-list"><span>黑手党</span><span>线人</span><span>政治阴谋</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="异乡人:上海的芥川龙之介" data-region="日本/中国大陆" data-type="电影" data-year="2021" data-genre="剧情/历史" data-tags="文学,1920年代,上海,间谍,迷惘">
+  <a class="movie-card__cover" href="movies/movie-1329.html">
+    <img src="./129.jpg" alt="异乡人:上海的芥川龙之介" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2021 · 日本/中国大陆</div>
+    <h3><a href="movies/movie-1329.html">异乡人:上海的芥川龙之介</a></h3>
+    <p>1921年,日本文豪芥川龙之介以记者身份来到民国上海,却意外卷入了一场关于《西游记》被盗手稿的谍战。</p>
+    <div class="tag-list"><span>文学</span><span>1920年代</span><span>上海</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="革命两福星" data-region="法国" data-type="电影" data-year="2023" data-genre="喜剧,历史" data-tags="乌龙,大事件,小人物,法式幽默">
+  <a class="movie-card__cover" href="movies/movie-1331.html">
+    <img src="./131.jpg" alt="革命两福星" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 法国</div>
+    <h3><a href="movies/movie-1331.html">革命两福星</a></h3>
+    <p>两个笨手笨脚的油漆工意外被卷入法国大革命的导火索事件,竟阴差阳错成了人民英雄。</p>
+    <div class="tag-list"><span>乌龙</span><span>大事件</span><span>小人物</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="共同前进" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="历史,战争,剧情" data-tags="长征,兄弟连,小人物史诗">
+  <a class="movie-card__cover" href="movies/movie-1359.html">
+    <img src="./9.jpg" alt="共同前进" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1359.html">共同前进</a></h3>
+    <p>一个逃兵、一个书生、一个老农,三个最不想当兵的人在长征路上成了最坚硬的骨头。</p>
+    <div class="tag-list"><span>长征</span><span>兄弟连</span><span>小人物史诗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="自梳" data-region="中国大陆/中国香港" data-type="电影" data-year="2024" data-genre="剧情,历史,爱情" data-tags="自梳女,民国,丝绸厂,女性互助,同性之爱">
+  <a class="movie-card__cover" href="movies/movie-1362.html">
+    <img src="./12.jpg" alt="自梳" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆/中国香港</div>
+    <h3><a href="movies/movie-1362.html">自梳</a></h3>
+    <p>民国丝厂里,两个自梳女约定终身不嫁,却先后爱上同一个男人,最后她们选择联手“处理”掉他。</p>
+    <div class="tag-list"><span>自梳女</span><span>民国</span><span>丝绸厂</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="伊塞克湖的猩红色罂粟花" data-region="吉尔吉斯斯坦/俄罗斯" data-type="电影" data-year="2018" data-genre="剧情,历史" data-tags="苏联,禁忌恋,罂粟,山村">
+  <a class="movie-card__cover" href="movies/movie-1377.html">
+    <img src="./27.jpg" alt="伊塞克湖的猩红色罂粟花" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2018 · 吉尔吉斯斯坦/俄罗斯</div>
+    <h3><a href="movies/movie-1377.html">伊塞克湖的猩红色罂粟花</a></h3>
+    <p>一位苏联女军医在伊塞克湖畔山村爱上当地牧羊人,而漫山罂粟花田下埋着二战时期集体屠杀的罪证。</p>
+    <div class="tag-list"><span>苏联</span><span>禁忌恋</span><span>罂粟</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="一号档案守护者" data-region="中国大陆" data-type="电影" data-year="2021" data-genre="悬疑/历史/谍战" data-tags="守护,密码战,民国,小人物">
+  <a class="movie-card__cover" href="movies/movie-1393.html">
+    <img src="./43.jpg" alt="一号档案守护者" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2021 · 中国大陆</div>
+    <h3><a href="movies/movie-1393.html">一号档案守护者</a></h3>
+    <p>1949年上海解放前夜,一个柔弱的图书馆管理员,用借书卡和书架暗格,与疯狂销毁证据的特务展开了一场“档案保卫战”。</p>
+    <div class="tag-list"><span>守护</span><span>密码战</span><span>民国</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="元帅之死" data-region="中国大陆" data-type="电影" data-year="2025" data-genre="历史,悬疑" data-tags="古代权谋,战争,复仇">
+  <a class="movie-card__cover" href="movies/movie-1403.html">
+    <img src="./53.jpg" alt="元帅之死" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1403.html">元帅之死</a></h3>
+    <p>一代铁血元帅疑似战死沙场,然而遗体上的三处致命伤却指向了不同的凶手。</p>
+    <div class="tag-list"><span>古代权谋</span><span>战争</span><span>复仇</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="那些年,这些事" data-region="中国台湾" data-type="电影" data-year="2017" data-genre="剧情/历史" data-tags="台湾,眷村,白色恐怖,家族史">
+  <a class="movie-card__cover" href="movies/movie-1415.html">
+    <img src="./65.jpg" alt="那些年,这些事" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 中国台湾</div>
+    <h3><a href="movies/movie-1415.html">那些年,这些事</a></h3>
+    <p>一栋即将被拆迁的眷村老屋里,孙女翻出了阿公年轻时的手稿,揭开了一段被埋藏了六十年的爱情和政治冤案。</p>
+    <div class="tag-list"><span>台湾</span><span>眷村</span><span>白色恐怖</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="转折点:原子弹与冷战" data-region="美国" data-type="纪录片" data-year="2024" data-genre="历史,战争,科技" data-tags="二战,核武器,冷战,深度剖析">
+  <a class="movie-card__cover" href="movies/movie-1416.html">
+    <img src="./66.jpg" alt="转折点:原子弹与冷战" loading="lazy">
+    
+    <span class="movie-card__type">纪录片</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 美国</div>
+    <h3><a href="movies/movie-1416.html">转折点:原子弹与冷战</a></h3>
+    <p>从曼哈顿计划到古巴导弹危机,原子弹如何塑造了战后七十年的世界格局。</p>
+    <div class="tag-list"><span>二战</span><span>核武器</span><span>冷战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="马永贞之争霸上海滩国语" data-region="中国" data-type="电影" data-year="2018" data-genre="动作、历史" data-tags="民国,武术,复仇">
+  <a class="movie-card__cover" href="movies/movie-1420.html">
+    <img src="./70.jpg" alt="马永贞之争霸上海滩国语" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2018 · 中国</div>
+    <h3><a href="movies/movie-1420.html">马永贞之争霸上海滩国语</a></h3>
+    <p>山东小子马永贞闯荡上海滩,从码头苦力一路打到斧头帮,只为给妹妹报仇。</p>
+    <div class="tag-list"><span>民国</span><span>武术</span><span>复仇</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="伦敦交际花" data-region="英国" data-type="电视剧" data-year="2017" data-genre="历史、剧情、女性" data-tags="摄政时代,高级妓女,女性觉醒,上流社会,珠宝">
+  <a class="movie-card__cover" href="movies/movie-1432.html">
+    <img src="./82.jpg" alt="伦敦交际花" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 英国</div>
+    <h3><a href="movies/movie-1432.html">伦敦交际花</a></h3>
+    <p>19世纪伦敦,一位出身贫民的交际花用美貌和手腕爬上贵族圈顶层,却发现她的每一位恩客都曾参与过她母亲的绞刑。</p>
+    <div class="tag-list"><span>摄政时代</span><span>高级妓女</span><span>女性觉醒</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="一九四一" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="历史,战争,悬疑" data-tags="民国,鼠疫,731部队,封闭空间">
+  <a class="movie-card__cover" href="movies/movie-1447.html">
+    <img src="./97.jpg" alt="一九四一" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1447.html">一九四一</a></h3>
+    <p>1941年日军封锁下的哈尔滨,一名地下党在一家停业的医院内,与潜伏的日本特务进行生死较量。</p>
+    <div class="tag-list"><span>民国</span><span>鼠疫</span><span>731部队</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="黎明前的暗战" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="剧情,悬疑,历史" data-tags="谍战,金融,解放前夕,黄金,背锅">
+  <a class="movie-card__cover" href="movies/movie-1460.html">
+    <img src="./110.jpg" alt="黎明前的暗战" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1460.html">黎明前的暗战</a></h3>
+    <p>上海解放前夜,一个银行小职员被国共双方都当成了顶级特工,他只能硬演下去。</p>
+    <div class="tag-list"><span>谍战</span><span>金融</span><span>解放前夕</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="铁血金戈" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="战争/历史/动作" data-tags="古代战争,冷兵器,忠义,兄弟情,悲壮">
+  <a class="movie-card__cover" href="movies/movie-1467.html">
+    <img src="./117.jpg" alt="铁血金戈" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1467.html">铁血金戈</a></h3>
+    <p>唐朝安史之乱中,一支被朝廷抛弃的残军,用血肉筑起了最后一道防线。</p>
+    <div class="tag-list"><span>古代战争</span><span>冷兵器</span><span>忠义</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="南洋儿女英雄传之怒海屠妖" data-region="新加坡/马来西亚" data-type="电影" data-year="2024" data-genre="动作/奇幻/历史" data-tags="南洋,女侠,降头,海盗">
+  <a class="movie-card__cover" href="movies/movie-1540.html">
+    <img src="./40.jpg" alt="南洋儿女英雄传之怒海屠妖" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 新加坡/马来西亚</div>
+    <h3><a href="movies/movie-1540.html">南洋儿女英雄传之怒海屠妖</a></h3>
+    <p>十九世纪南洋群岛,三个来自不同民族的少女组成联盟,对抗用邪术控制航道的荷兰殖民者。</p>
+    <div class="tag-list"><span>南洋</span><span>女侠</span><span>降头</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="女性的先行者" data-region="中国大陆" data-type="剧集" data-year="2025" data-genre="历史/传记" data-tags="民国,女权,实业">
+  <a class="movie-card__cover" href="movies/movie-1552.html">
+    <img src="./52.jpg" alt="女性的先行者" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1552.html">女性的先行者</a></h3>
+    <p>民国奇女子为争取女性财产继承权,将夫家告上法庭,轰动全国。</p>
+    <div class="tag-list"><span>民国</span><span>女权</span><span>实业</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="望道" data-region="中国大陆" data-type="电影" data-year="2023" data-genre="剧情/历史/传记" data-tags="主旋律,翻译,知识分子,信仰,革命">
+  <a class="movie-card__cover" href="movies/movie-1566.html">
+    <img src="./66.jpg" alt="望道" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国大陆</div>
+    <h3><a href="movies/movie-1566.html">望道</a></h3>
+    <p>一间柴房,一盏油灯,一个青年以墨为糖,翻译出改变中国命运的真理之火种。</p>
+    <div class="tag-list"><span>主旋律</span><span>翻译</span><span>知识分子</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="血战独木关" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="战争,历史,动作" data-tags="冷兵器,以少胜多,忠义">
+  <a class="movie-card__cover" href="movies/movie-1568.html">
+    <img src="./68.jpg" alt="血战独木关" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1568.html">血战独木关</a></h3>
+    <p>隋末唐初,二十名残兵为掩护百姓渡河,要在独木关上拖住敌军三千精骑一天一夜。</p>
+    <div class="tag-list"><span>冷兵器</span><span>以少胜多</span><span>忠义</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="战栗1978" data-region="美国" data-type="电影" data-year="2024" data-genre="恐怖,历史" data-tags="伪纪录片,连环杀手,复古恐怖,录像带">
+  <a class="movie-card__cover" href="movies/movie-1586.html">
+    <img src="./86.jpg" alt="战栗1978" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 美国</div>
+    <h3><a href="movies/movie-1586.html">战栗1978</a></h3>
+    <p>1978年,一个摄制组跟随警方进入杀人狂魔的农场,却在放映室发现了200多卷受害者生前被折磨的录像带。</p>
+    <div class="tag-list"><span>伪纪录片</span><span>连环杀手</span><span>复古恐怖</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="三国" data-region="中国大陆" data-type="动画电影" data-year="2025" data-genre="动作,历史,科幻" data-tags="机甲,水浒联动,蒸汽朋克">
+  <a class="movie-card__cover" href="movies/movie-1593.html">
+    <img src="./93.jpg" alt="三国" loading="lazy">
+    
+    <span class="movie-card__type">动画电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1593.html">三国</a></h3>
+    <p>在机甲纵横的后启示录时代,刘备、关羽、张飞三人的义体里藏着统一中原的终极代码。</p>
+    <div class="tag-list"><span>机甲</span><span>水浒联动</span><span>蒸汽朋克</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="永不消逝的电波" data-region="中国大陆" data-type="电影" data-year="2021" data-genre="剧情,历史,悬疑" data-tags="谍战,黑白转彩色,革命,信仰">
+  <a class="movie-card__cover" href="movies/movie-1594.html">
+    <img src="./94.jpg" alt="永不消逝的电波" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2021 · 中国大陆</div>
+    <h3><a href="movies/movie-1594.html">永不消逝的电波</a></h3>
+    <p>1938年上海滩,潜伏在地下电台的李侠在敌后发报,最后一份电文关乎百万大军的生死。</p>
+    <div class="tag-list"><span>谍战</span><span>黑白转彩色</span><span>革命</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="愤怒红星" data-region="俄罗斯" data-type="电影" data-year="2023" data-genre="战争,历史" data-tags="二战,空战,女飞行员,复仇">
+  <a class="movie-card__cover" href="movies/movie-1625.html">
+    <img src="./125.jpg" alt="愤怒红星" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 俄罗斯</div>
+    <h3><a href="movies/movie-1625.html">愤怒红星</a></h3>
+    <p>斯大林格勒战役中,一群女飞行员驾驶着木质战斗机,誓死守卫被围困的祖国。</p>
+    <div class="tag-list"><span>二战</span><span>空战</span><span>女飞行员</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="凯撒与克里奥佩特拉" data-region="英国" data-type="电影" data-year="1945" data-genre="剧情,历史,爱情" data-tags="经典改编,萧伯纳,史诗,艳后">
+  <a class="movie-card__cover" href="movies/movie-1637.html">
+    <img src="./137.jpg" alt="凯撒与克里奥佩特拉" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1945 · 英国</div>
+    <h3><a href="movies/movie-1637.html">凯撒与克里奥佩特拉</a></h3>
+    <p>年老精明的罗马凯撒,遇上年幼任性却野心勃勃的埃及艳后,一场权力与智慧的师生恋。</p>
+    <div class="tag-list"><span>经典改编</span><span>萧伯纳</span><span>史诗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="西域大都护" data-region="中国大陆" data-type="电影" data-year="2026" data-genre="历史、动作、悬疑" data-tags="丝绸之路,考古,权力斗争">
+  <a class="movie-card__cover" href="movies/movie-1665.html">
+    <img src="./15.jpg" alt="西域大都护" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-1665.html">西域大都护</a></h3>
+    <p>西域大都护意外发现一座古城壁画上,竟预言了他将死于最信任之人手中。</p>
+    <div class="tag-list"><span>丝绸之路</span><span>考古</span><span>权力斗争</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="金药局的女儿们" data-region="韩国" data-type="剧集" data-year="2024" data-genre="剧情、家庭、历史" data-tags="日据时期,女性抗争,药房,民族意识">
+  <a class="movie-card__cover" href="movies/movie-1668.html">
+    <img src="./18.jpg" alt="金药局的女儿们" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 韩国</div>
+    <h3><a href="movies/movie-1668.html">金药局的女儿们</a></h3>
+    <p>1930年代日本殖民下的汉城,一个中药局家的三姐妹用韩方药材秘密制作抗日炸药。</p>
+    <div class="tag-list"><span>日据时期</span><span>女性抗争</span><span>药房</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="天文:问天" data-region="中国大陆" data-type="电影/纪录片" data-year="2024" data-genre="纪录片/历史/科普" data-tags="天文学,中国航天,古天文">
+  <a class="movie-card__cover" href="movies/movie-1680.html">
+    <img src="./30.jpg" alt="天文:问天" loading="lazy">
+    
+    <span class="movie-card__type">电影/纪录片</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1680.html">天文:问天</a></h3>
+    <p>从三千年前的甲骨文记载到中国空间站建成,一部跨越时空的天问史诗。</p>
+    <div class="tag-list"><span>天文学</span><span>中国航天</span><span>古天文</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="1997所向无敌" data-region="中国香港" data-type="电影" data-year="2023" data-genre="动作/历史" data-tags="拳击,回归,热血,真实人物改编,草根">
+  <a class="movie-card__cover" href="movies/movie-1685.html">
+    <img src="./35.jpg" alt="1997所向无敌" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国香港</div>
+    <h3><a href="movies/movie-1685.html">1997所向无敌</a></h3>
+    <p>1997年,香港草根拳手为尊严挑战世界冠军,全城为他失眠的那一夜,成为传奇。</p>
+    <div class="tag-list"><span>拳击</span><span>回归</span><span>热血</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="柴生芳" data-region="中国" data-type="电影" data-year="2025" data-genre="传记,历史" data-tags="主旋律,脱贫攻坚,真实人物,感人">
+  <a class="movie-card__cover" href="movies/movie-1725.html">
+    <img src="./75.jpg" alt="柴生芳" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国</div>
+    <h3><a href="movies/movie-1725.html">柴生芳</a></h3>
+    <p>记录“最美奋斗者”柴生芳博士毕业后毅然回乡,将生命献给甘肃定西扶贫事业的最后三百天。</p>
+    <div class="tag-list"><span>主旋律</span><span>脱贫攻坚</span><span>真实人物</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="最后征战" data-region="美国" data-type="电影" data-year="2026" data-genre="战争,历史,剧情" data-tags="一战,华工,遗忘,悲壮">
+  <a class="movie-card__cover" href="movies/movie-1738.html">
+    <img src="./88.jpg" alt="最后征战" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 美国</div>
+    <h3><a href="movies/movie-1738.html">最后征战</a></h3>
+    <p>一战尾声,两千名被遗忘在法国战壕中的中国劳工,必须拿起铁锹和步枪,独自对抗德军的最后反扑。</p>
+    <div class="tag-list"><span>一战</span><span>华工</span><span>遗忘</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="马戏团迷情" data-region="西班牙" data-type="电影" data-year="2023" data-genre="悬疑,爱情,历史" data-tags="双重人格,马戏团,西班牙内战,暗黑美学">
+  <a class="movie-card__cover" href="movies/movie-1739.html">
+    <img src="./89.jpg" alt="马戏团迷情" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 西班牙</div>
+    <h3><a href="movies/movie-1739.html">马戏团迷情</a></h3>
+    <p>1930年代西班牙马戏团,一名失忆的空中飞人同时被两个男人声称是他们的爱人,且两人都是逃兵。</p>
+    <div class="tag-list"><span>双重人格</span><span>马戏团</span><span>西班牙内战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="天山的红花" data-region="中国" data-type="电影" data-year="2025" data-genre="剧情,历史" data-tags="边疆建设,兵团岁月,女性群像">
+  <a class="movie-card__cover" href="movies/movie-1748.html">
+    <img src="./98.jpg" alt="天山的红花" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国</div>
+    <h3><a href="movies/movie-1748.html">天山的红花</a></h3>
+    <p>六十年代,四名来自不同城市的年轻女性在新疆天山脚下开出了第一朵棉花。</p>
+    <div class="tag-list"><span>边疆建设</span><span>兵团岁月</span><span>女性群像</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="冬狮" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="剧情/历史/家庭" data-tags="家族恩怨,权力斗争,北方雪原,硬核">
+  <a class="movie-card__cover" href="movies/movie-1763.html">
+    <img src="./113.jpg" alt="冬狮" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1763.html">冬狮</a></h3>
+    <p>东北冬季,一个家族的三个继承人必须在父亲咽气前决定,谁留下,谁离开。</p>
+    <div class="tag-list"><span>家族恩怨</span><span>权力斗争</span><span>北方雪原</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="悲惨世界" data-region="英国" data-type="剧集" data-year="2024" data-genre="历史,剧情" data-tags="名著改编,革命,人性,史诗">
+  <a class="movie-card__cover" href="movies/movie-1793.html">
+    <img src="./143.jpg" alt="悲惨世界" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 英国</div>
+    <h3><a href="movies/movie-1793.html">悲惨世界</a></h3>
+    <p>新版迷你剧,从沙威的视角重新讲述冉阿让的故事,善恶的边界从未如此模糊。</p>
+    <div class="tag-list"><span>名著改编</span><span>革命</span><span>人性</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="与狼共舞2" data-region="美国" data-type="电影" data-year="2025" data-genre="剧情、西部、历史" data-tags="印第安,文明冲突,和解,续作">
+  <a class="movie-card__cover" href="movies/movie-1864.html">
+    <img src="./64.jpg" alt="与狼共舞2" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-1864.html">与狼共舞2</a></h3>
+    <p>三十年后,邓巴中尉的孙子踏上祖辈的土地,试图找回被现代文明吞噬的家族记忆,却遇到了一个自称“狼语者”的印第安少年。</p>
+    <div class="tag-list"><span>印第安</span><span>文明冲突</span><span>和解</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="旗正飘飘" data-region="中国台湾" data-type="电影" data-year="1987" data-genre="战争/历史/爱情" data-tags="抗日战争,军旅爱情,悲壮,爱国情怀">
+  <a class="movie-card__cover" href="movies/movie-1867.html">
+    <img src="./67.jpg" alt="旗正飘飘" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1987 · 中国台湾</div>
+    <h3><a href="movies/movie-1867.html">旗正飘飘</a></h3>
+    <p>抗战末期,一支孤军深入敌后的特遣队,为了护送一面军旗穿越火线,全员牺牲。</p>
+    <div class="tag-list"><span>抗日战争</span><span>军旅爱情</span><span>悲壮</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="聂荣臻" data-region="中国大陆" data-type="电视剧" data-year="2025" data-genre="传记、历史、战争" data-tags="伟人,革命,抗日战争,两弹一星,元帅">
+  <a class="movie-card__cover" href="movies/movie-1869.html">
+    <img src="./69.jpg" alt="聂荣臻" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1869.html">聂荣臻</a></h3>
+    <p>从黄埔教官到开国元帅,从抗战烽火到两弹一星,全景展现聂荣臻同志波澜壮阔的革命生涯。</p>
+    <div class="tag-list"><span>伟人</span><span>革命</span><span>抗日战争</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="宽恕2022" data-region="奥地利/德国" data-type="电影" data-year="2024" data-genre="剧情/历史/家庭" data-tags="二战罪行,代际和解,法律与道德,赎罪之旅">
+  <a class="movie-card__cover" href="movies/movie-1878.html">
+    <img src="./78.jpg" alt="宽恕2022" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 奥地利/德国</div>
+    <h3><a href="movies/movie-1878.html">宽恕2022</a></h3>
+    <p>2022年,一个奥地利少年在网上发现了自己曾祖父是纳粹刽子手的铁证,他决定找到当年幸存者的后人,替家族完成迟到了80年的道歉。</p>
+    <div class="tag-list"><span>二战罪行</span><span>代际和解</span><span>法律与道德</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="藤田嗣治" data-region="日本/法国" data-type="电影" data-year="2024" data-genre="传记/历史/艺术" data-tags="画家,巴黎画派,身份认同">
+  <a class="movie-card__cover" href="movies/movie-1920.html">
+    <img src="./120.jpg" alt="藤田嗣治" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 日本/法国</div>
+    <h3><a href="movies/movie-1920.html">藤田嗣治</a></h3>
+    <p>旅法日本画家藤田嗣治,在东西方夹缝中创造了乳白色裸女,却一生无法融入任何一边。</p>
+    <div class="tag-list"><span>画家</span><span>巴黎画派</span><span>身份认同</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="沙尘少爷" data-region="印度" data-type="剧集" data-year="2026" data-genre="剧情/历史" data-tags="家族复仇,沙漠传奇,种姓制度,权力游戏">
+  <a class="movie-card__cover" href="movies/movie-1922.html">
+    <img src="./122.jpg" alt="沙尘少爷" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 印度</div>
+    <h3><a href="movies/movie-1922.html">沙尘少爷</a></h3>
+    <p>拉贾斯坦邦的沙漠中,一位被流放的贵族少爷伪装成低种姓仆人回到家族,决心向夺走他一切的兄长复仇。</p>
+    <div class="tag-list"><span>家族复仇</span><span>沙漠传奇</span><span>种姓制度</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="与塔拉瓦的海军陆战队" data-region="美国" data-type="电影" data-year="1964" data-genre="战争、历史" data-tags="太平洋战争,陆战队,岛屿登陆,真实战役改编">
+  <a class="movie-card__cover" href="movies/movie-1925.html">
+    <img src="./125.jpg" alt="与塔拉瓦的海军陆战队" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1964 · 美国</div>
+    <h3><a href="movies/movie-1925.html">与塔拉瓦的海军陆战队</a></h3>
+    <p>太平洋战争最血腥的塔拉瓦战役中,一支海军陆战队的四天炼狱与兄弟情。</p>
+    <div class="tag-list"><span>太平洋战争</span><span>陆战队</span><span>岛屿登陆</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="明治天皇与日俄战争" data-region="日本" data-type="电影" data-year="2026" data-genre="历史/战争" data-tags="明治维新,对马海战,参谋本部,昭和前奏">
+  <a class="movie-card__cover" href="movies/movie-1929.html">
+    <img src="./129.jpg" alt="明治天皇与日俄战争" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 日本</div>
+    <h3><a href="movies/movie-1929.html">明治天皇与日俄战争</a></h3>
+    <p>明治天皇在御前会议上力排众议,用一场豪赌式战争将日本推上世界列强的牌桌。</p>
+    <div class="tag-list"><span>明治维新</span><span>对马海战</span><span>参谋本部</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="柏林地下情" data-region="德国" data-type="电影" data-year="2018" data-genre="爱情,历史,战争" data-tags="二战,犹太人,地下诊所,禁忌之恋,生死">
+  <a class="movie-card__cover" href="movies/movie-1934.html">
+    <img src="./134.jpg" alt="柏林地下情" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2018 · 德国</div>
+    <h3><a href="movies/movie-1934.html">柏林地下情</a></h3>
+    <p>1943年柏林,一名纳粹医生的妻子将犹太逃亡者藏在地下室,两人在恐惧中相爱。</p>
+    <div class="tag-list"><span>二战</span><span>犹太人</span><span>地下诊所</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="荣耀三九年" data-region="英国" data-type="电影" data-year="2009" data-genre="剧情/战争/历史" data-tags="二战前夕,贵族,谍战,姐妹情">
+  <a class="movie-card__cover" href="movies/movie-1954.html">
+    <img src="./4.jpg" alt="荣耀三九年" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2009 · 英国</div>
+    <h3><a href="movies/movie-1954.html">荣耀三九年</a></h3>
+    <p>1939年战争阴云下,贵族姐妹爱上同一个男人,而那个男人竟是潜伏的纳粹间谍。</p>
+    <div class="tag-list"><span>二战前夕</span><span>贵族</span><span>谍战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="一个卡拉布里的孩子" data-region="意大利" data-type="电影" data-year="2025" data-genre="剧情/历史/家庭" data-tags="意大利,二战,童年,逃亡,美食">
+  <a class="movie-card__cover" href="movies/movie-1956.html">
+    <img src="./6.jpg" alt="一个卡拉布里的孩子" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 意大利</div>
+    <h3><a href="movies/movie-1956.html">一个卡拉布里的孩子</a></h3>
+    <p>1943 年,一个八岁的卡拉布里亚男孩在战火中背着瘫痪的爷爷徒步五百公里去寻找参军的父亲。</p>
+    <div class="tag-list"><span>意大利</span><span>二战</span><span>童年</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="钟鼓楼" data-region="中国" data-type="剧集" data-year="1986" data-genre="剧情,历史,家庭" data-tags="北京,四合院,年代,老戏骨,生活">
+  <a class="movie-card__cover" href="movies/movie-1960.html">
+    <img src="./10.jpg" alt="钟鼓楼" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1986 · 中国</div>
+    <h3><a href="movies/movie-1960.html">钟鼓楼</a></h3>
+    <p>1980年代北京钟鼓楼下一个四合院里,几户人家从清晨到黄昏的12小时里,上演了浓缩时代变迁的人间悲喜剧。</p>
+    <div class="tag-list"><span>北京</span><span>四合院</span><span>年代</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="战争姐妹" data-region="澳大利亚" data-type="电影" data-year="2017" data-genre="历史" data-tags="二战,战地护士,姐妹情,东南亚战场">
+  <a class="movie-card__cover" href="movies/movie-1968.html">
+    <img src="./18.jpg" alt="战争姐妹" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2017 · 澳大利亚</div>
+    <h3><a href="movies/movie-1968.html">战争姐妹</a></h3>
+    <p>1942年新加坡沦陷,一群来自澳大利亚的战地护士在逃亡途中,用柔弱的肩膀撑起了最后的尊严。</p>
+    <div class="tag-list"><span>二战</span><span>战地护士</span><span>姐妹情</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="伯爵夫人格拉茨" data-region="奥地利/德国" data-type="电影" data-year="2024" data-genre="剧情/历史/悬疑" data-tags="庄园秘史,女性复仇,哥特美学">
+  <a class="movie-card__cover" href="movies/movie-1970.html">
+    <img src="./20.jpg" alt="伯爵夫人格拉茨" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 奥地利/德国</div>
+    <h3><a href="movies/movie-1970.html">伯爵夫人格拉茨</a></h3>
+    <p>格拉茨城堡的伯爵夫人离奇失踪,年轻女仆在搜寻中揭开了家族百年的血腥契约。</p>
+    <div class="tag-list"><span>庄园秘史</span><span>女性复仇</span><span>哥特美学</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="摆动" data-region="德国" data-type="电影" data-year="2023" data-genre="剧情、历史" data-tags="冷战,东德,舞蹈,自由,压抑">
+  <a class="movie-card__cover" href="movies/movie-1976.html">
+    <img src="./26.jpg" alt="摆动" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 德国</div>
+    <h3><a href="movies/movie-1976.html">摆动</a></h3>
+    <p>1984年东柏林,一名芭蕾舞者用身体的每一次摆动,对抗整个国家的沉默。</p>
+    <div class="tag-list"><span>冷战</span><span>东德</span><span>舞蹈</span></div>
+  </div>
+</article>
+    </div>
+    <div class="empty-state" data-empty-state>没有找到匹配的影片</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>热门电影大全</h2>
+      <p>热门电影大全栏目围绕热度较高的影片进行归类，包含热门片库、精选合集和高分电影内容，适合集中浏览。</p>
+    </div>
+    <div>
+      <h3>快速浏览</h3>
+      <a href="./catalog.html">热门片库</a>
+      <a href="./categories.html">精选分类</a>
+      <a href="./ranking.html">热度排行</a>
+    </div>
+    <div>
+      <h3>栏目内容</h3>
+      <a href="./category-drama.html">剧情电影</a>
+      <a href="./category-comedy.html">喜剧影片</a>
+      <a href="./category-action.html">动作片库</a>
+    </div>
+    <div>
+      <h3>网站信息</h3>
+      <a href="./about.html">关于我们</a>
+      <a href="./support.html">服务支持</a>
+      <a href="./copyright.html">版权声明</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 热门电影大全 · 热门影片在线点播</div>
+</footer>
+
+  <script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

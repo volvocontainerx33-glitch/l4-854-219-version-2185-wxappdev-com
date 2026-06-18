@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>音乐片库-热门电影大全</title>
+  <meta name="description" content="音乐片库栏目，精选音乐题材影片与剧集，覆盖热门片库、口碑作品和高分内容。">
+  <meta name="keywords" content="音乐片库,热门影片,电影大全,影片点播">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="./index.html" aria-label="热门电影大全">
+      <span class="brand__mark">▶</span>
+      <span class="brand__text">
+        <strong>热门电影大全</strong>
+        <small>热门影片在线点播</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">片库</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行</a>
+      <a href="./category-movies.html">电影</a>
+      <a href="./category-series.html">剧集</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开菜单">☰</button>
+  </div>
+</header>
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="index.html">首页</a><span>/</span><a href="categories.html">分类</a><span>/</span><span>音乐片库</span></nav>
+    <h1>音乐片库</h1>
+    <p>精选音乐题材影片与剧集，覆盖热门片库、口碑作品和高分内容。</p>
+  </div>
+</section>
+<main class="section">
+  <div class="container">
+    
+<div class="filter-panel" data-filter-panel>
+  <div class="filter-panel__top">
+    <h2>音乐片库筛选</h2>
+    <p class="filter-count" data-filter-count></p>
+  </div>
+  <div class="filter-grid">
+    <label>
+      <span>关键词</span>
+      <input type="search" name="q" data-filter-text placeholder="搜索片名、地区、类型、标签">
+    </label>
+    <label>
+      <span>年份</span>
+      <select data-filter-year>
+        <option value="">全部年份</option>
+        <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1983">1983</option><option value="1982">1982</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1971">1971</option><option value="1970">1970</option><option value="1968">1968</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1959">1959</option><option value="1957">1957</option><option value="1956">1956</option><option value="1954">1954</option><option value="1947">1947</option><option value="1945">1945</option><option value="1932">1932</option>
+      </select>
+    </label>
+    <label>
+      <span>地区</span>
+      <select data-filter-region>
+        <option value="">全部地区</option>
+        <option value="中国大陆">中国大陆</option><option value="美国">美国</option><option value="日本">日本</option><option value="中国香港">中国香港</option><option value="韩国">韩国</option><option value="英国">英国</option><option value="中国台湾">中国台湾</option><option value="法国">法国</option><option value="中国">中国</option><option value="香港">香港</option><option value="泰国">泰国</option><option value="西班牙">西班牙</option><option value="德国">德国</option><option value="印度">印度</option><option value="俄罗斯">俄罗斯</option><option value="意大利">意大利</option><option value="法国/比利时">法国/比利时</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国内地">中国内地</option><option value="加拿大">加拿大</option><option value="台湾">台湾</option><option value="美国/英国">美国/英国</option><option value="法国/德国">法国/德国</option><option value="英国/美国">英国/美国</option><option value="澳大利亚">澳大利亚</option><option value="法国/意大利">法国/意大利</option><option value="波兰">波兰</option><option value="印度尼西亚">印度尼西亚</option><option value="中国大陆/中国香港">中国大陆/中国香港</option><option value="巴西">巴西</option>
+      </select>
+    </label>
+    <label>
+      <span>类型</span>
+      <select data-filter-type>
+        <option value="">全部类型</option>
+        <option value="电影">电影</option><option value="剧集">剧集</option><option value="电视剧">电视剧</option><option value="动画电影">动画电影</option><option value="动画剧集">动画剧集</option><option value="综艺">综艺</option><option value="纪录片">纪录片</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="电影/动画">电影/动画</option><option value="动画">动画</option><option value="动漫">动漫</option><option value="TV剧集">TV剧集</option><option value="网剧">网剧</option><option value="剧集/动画">剧集/动画</option><option value="TV 剧集">TV 剧集</option><option value="动画短片">动画短片</option><option value="短剧">短剧</option><option value="综艺/晚会">综艺/晚会</option><option value="剧集/第一季">剧集/第一季</option><option value="美剧">美剧</option><option value="剧集 动画">剧集 动画</option><option value="电视节目/纪录片">电视节目/纪录片</option><option value="武侠/动作">武侠/动作</option><option value="动作/西部">动作/西部</option><option value="剧集 (6集)">剧集 (6集)</option><option value="综艺/真人秀">综艺/真人秀</option><option value="迷你剧">迷你剧</option><option value="动画/动态漫">动画/动态漫</option><option value="TV Series">TV Series</option>
+      </select>
+    </label>
+  </div>
+</div>
+    <div class="movie-grid">
+      
+<article class="movie-card" data-movie-card data-title="博莱罗" data-region="法国" data-type="电影" data-year="2024" data-genre="剧情,音乐" data-tags="舞蹈,创作,传记,拉威尔">
+  <a class="movie-card__cover" href="movies/movie-0115.html">
+    <img src="./115.jpg" alt="博莱罗" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 法国</div>
+    <h3><a href="movies/movie-0115.html">博莱罗</a></h3>
+    <p>1928年,作曲家拉威尔在失眠的夜里反复哼唱同一段旋律,那将是他献给世界的绝唱。</p>
+    <div class="tag-list"><span>舞蹈</span><span>创作</span><span>传记</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我和纳塔利" data-region="波兰" data-type="电影" data-year="2025" data-genre="剧情,音乐" data-tags="黑帮,古典钢琴,救赎,反差萌">
+  <a class="movie-card__cover" href="movies/movie-0142.html">
+    <img src="./142.jpg" alt="我和纳塔利" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 波兰</div>
+    <h3><a href="movies/movie-0142.html">我和纳塔利</a></h3>
+    <p>一名冷血黑帮杀手为了保护他唯一热爱的古典钢琴家纳塔利,伪装成油腻的中年学琴大叔。</p>
+    <div class="tag-list"><span>黑帮</span><span>古典钢琴</span><span>救赎</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="复兴之路" data-region="法国" data-type="电影" data-year="2023" data-genre="剧情,音乐" data-tags="合唱团,逆袭,教育">
+  <a class="movie-card__cover" href="movies/movie-0150.html">
+    <img src="./150.jpg" alt="复兴之路" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 法国</div>
+    <h3><a href="movies/movie-0150.html">复兴之路</a></h3>
+    <p>一所即将关闭的乡村小学,被一位聋哑音乐老师用身体节奏课救活了。</p>
+    <div class="tag-list"><span>合唱团</span><span>逆袭</span><span>教育</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="爱乐风雨情国语" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="音乐,爱情" data-tags="交响乐,聋人,逆袭,配音版">
+  <a class="movie-card__cover" href="movies/movie-0177.html">
+    <img src="./27.jpg" alt="爱乐风雨情国语" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0177.html">爱乐风雨情国语</a></h3>
+    <p>失聪的小提琴手与叛逆的钢琴天才组建业余乐团,用音乐对抗各自的“无声世界”。</p>
+    <div class="tag-list"><span>交响乐</span><span>聋人</span><span>逆袭</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="17号音乐仓库第三季" data-region="中国大陆" data-type="综艺" data-year="2025" data-genre="音乐/真人秀/治愈" data-tags="仓库改造,独立音乐人,街头演出,素人合作">
+  <a class="movie-card__cover" href="movies/movie-0184.html">
+    <img src="./34.jpg" alt="17号音乐仓库第三季" loading="lazy">
+    
+    <span class="movie-card__type">综艺</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-0184.html">17号音乐仓库第三季</a></h3>
+    <p>三位过气歌手和两位素人音乐人,共同经营一家废弃仓库,每期邀请一位路人共同完成一首原创歌曲。</p>
+    <div class="tag-list"><span>仓库改造</span><span>独立音乐人</span><span>街头演出</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="佩比、露西、朋" data-region="西班牙/古巴" data-type="电影" data-year="2025" data-genre="剧情/音乐" data-tags="公路电影,女性友谊,拉美魔幻,三姐妹">
+  <a class="movie-card__cover" href="movies/movie-0188.html">
+    <img src="./38.jpg" alt="佩比、露西、朋" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 西班牙/古巴</div>
+    <h3><a href="movies/movie-0188.html">佩比、露西、朋</a></h3>
+    <p>三个性格迥异的同父异母姐妹,带着生父的骨灰坛,骑着复古摩托穿越古巴,完成一场荒诞又浪漫的告别。</p>
+    <div class="tag-list"><span>公路电影</span><span>女性友谊</span><span>拉美魔幻</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="火箭人" data-region="美国" data-type="电影" data-year="2019" data-genre="音乐、传记、奇幻" data-tags="艾尔顿·约翰,华丽摇滚,童年创伤,音乐救赎,非写实传记">
+  <a class="movie-card__cover" href="movies/movie-0195.html">
+    <img src="./45.jpg" alt="火箭人" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2019 · 美国</div>
+    <h3><a href="movies/movie-0195.html">火箭人</a></h3>
+    <p>不是“讲述”艾尔顿·约翰,而是用音乐剧的形式,让他化身火箭人飞越自己的成瘾、孤独与童年。</p>
+    <div class="tag-list"><span>艾尔顿·约翰</span><span>华丽摇滚</span><span>童年创伤</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="灵魂男孩" data-region="美国" data-type="电影" data-year="2024" data-genre="奇幻/音乐" data-tags="灵魂互换,高中生,摇滚乐队,成长,身份认同">
+  <a class="movie-card__cover" href="movies/movie-0201.html">
+    <img src="./51.jpg" alt="灵魂男孩" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 美国</div>
+    <h3><a href="movies/movie-0201.html">灵魂男孩</a></h3>
+    <p>一个白人男孩的灵魂阴差阳错进入黑人老灵魂乐手的身体,距离演出只剩72小时。</p>
+    <div class="tag-list"><span>灵魂互换</span><span>高中生</span><span>摇滚乐队</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="代我问候布劳德街" data-region="英国" data-type="电影" data-year="1975" data-genre="剧情,音乐" data-tags="伦敦,唱片业,朋克,传承,怀旧">
+  <a class="movie-card__cover" href="movies/movie-0203.html">
+    <img src="./53.jpg" alt="代我问候布劳德街" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1975 · 英国</div>
+    <h3><a href="movies/movie-0203.html">代我问候布劳德街</a></h3>
+    <p>伦敦布劳德街的一家老唱片行即将拆迁,老板决定用一场复古派对,向这条伟大的街道告别。</p>
+    <div class="tag-list"><span>伦敦</span><span>唱片业</span><span>朋克</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="肖邦的青年时代" data-region="波兰" data-type="电影" data-year="2025" data-genre="传记,音乐" data-tags="艺术,爱情,革命">
+  <a class="movie-card__cover" href="movies/movie-0235.html">
+    <img src="./85.jpg" alt="肖邦的青年时代" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 波兰</div>
+    <h3><a href="movies/movie-0235.html">肖邦的青年时代</a></h3>
+    <p>聚焦华沙起义前夕,年轻的肖邦如何在音乐与家国情怀之间,完成从男孩到大师的蜕变。</p>
+    <div class="tag-list"><span>艺术</span><span>爱情</span><span>革命</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="玛丽娜" data-region="意大利/比利时" data-type="电影" data-year="2016" data-genre="传记,音乐" data-tags="移民,手风琴,成长,意大利民谣,父子和解">
+  <a class="movie-card__cover" href="movies/movie-0291.html">
+    <img src="./141.jpg" alt="玛丽娜" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2016 · 意大利/比利时</div>
+    <h3><a href="movies/movie-0291.html">玛丽娜</a></h3>
+    <p>上世纪50年代,意大利矿工之子靠一把捡来的手风琴,写下了那首传世名曲《玛丽娜》。</p>
+    <div class="tag-list"><span>移民</span><span>手风琴</span><span>成长</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="阿拉伯偶像" data-region="沙特阿拉伯" data-type="电影" data-year="2025" data-genre="音乐、传记" data-tags="梦想,选秀,宗教,女性">
+  <a class="movie-card__cover" href="movies/movie-0325.html">
+    <img src="./25.jpg" alt="阿拉伯偶像" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 沙特阿拉伯</div>
+    <h3><a href="movies/movie-0325.html">阿拉伯偶像</a></h3>
+    <p>沙特少女冒死上传歌唱视频,成为全国通缉的“网络偶像”。</p>
+    <div class="tag-list"><span>梦想</span><span>选秀</span><span>宗教</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="琦玉歌者3" data-region="日本" data-type="电影" data-year="2029" data-genre="音乐,剧情" data-tags="独立音乐,中年危机,梦想,现实主义">
+  <a class="movie-card__cover" href="movies/movie-0389.html">
+    <img src="./89.jpg" alt="琦玉歌者3" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2029 · 日本</div>
+    <h3><a href="movies/movie-0389.html">琦玉歌者3</a></h3>
+    <p>曾经红极一时的朋克乐队主唱,20年后成了琦玉县一个唯唯诺诺的公务员,直到他在街头看到了自己当年的歌被一个高中生翻唱。</p>
+    <div class="tag-list"><span>独立音乐</span><span>中年危机</span><span>梦想</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="回教庞克的诞生" data-region="马来西亚" data-type="电影" data-year="2023" data-genre="音乐/剧情" data-tags="摇滚,宗教,反抗,青春">
+  <a class="movie-card__cover" href="movies/movie-0408.html">
+    <img src="./108.jpg" alt="回教庞克的诞生" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 马来西亚</div>
+    <h3><a href="movies/movie-0408.html">回教庞克的诞生</a></h3>
+    <p>在马来西亚一个保守的小镇上,几个马来少年想组乐队,却发现摇滚在伊斯兰教义里是“罪恶之声”。</p>
+    <div class="tag-list"><span>摇滚</span><span>宗教</span><span>反抗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="情歌春恋" data-region="中国台湾" data-type="电影" data-year="1978" data-genre="爱情,音乐" data-tags="民歌运动,校园民歌,文艺爱情,70年代,复古">
+  <a class="movie-card__cover" href="movies/movie-0617.html">
+    <img src="./17.jpg" alt="情歌春恋" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1978 · 中国台湾</div>
+    <h3><a href="movies/movie-0617.html">情歌春恋</a></h3>
+    <p>70年代末台湾民歌运动风起云涌,三个热爱音乐的大学生组成乐队,在爱情与理想中谱写青春的歌谣。</p>
+    <div class="tag-list"><span>民歌运动</span><span>校园民歌</span><span>文艺爱情</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="但是还有热情" data-region="日本" data-type="电影" data-year="2026" data-genre="剧情/音乐/家庭" data-tags="乐队,中年危机,父子和解,温暖治愈">
+  <a class="movie-card__cover" href="movies/movie-0629.html">
+    <img src="./29.jpg" alt="但是还有热情" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 日本</div>
+    <h3><a href="movies/movie-0629.html">但是还有热情</a></h3>
+    <p>中年上班族重组学生时代的废柴乐队,没想到主唱变成了自己正值叛逆期的女儿。</p>
+    <div class="tag-list"><span>乐队</span><span>中年危机</span><span>父子和解</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="夏威夷凯乌兰妮公主" data-region="美国" data-type="动画电影" data-year="2025" data-genre="剧情,历史,音乐" data-tags="真实改编,公主,殖民历史,女性">
+  <a class="movie-card__cover" href="movies/movie-0680.html">
+    <img src="./80.jpg" alt="夏威夷凯乌兰妮公主" loading="lazy">
+    
+    <span class="movie-card__type">动画电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-0680.html">夏威夷凯乌兰妮公主</a></h3>
+    <p>最后的夏威夷公主爱上了一位来自敌国的平民记者,她要如何在爱情与即将被吞没的王国之间做选择?</p>
+    <div class="tag-list"><span>真实改编</span><span>公主</span><span>殖民历史</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="后街梦" data-region="中国大陆" data-type="电视剧" data-year="2024" data-genre="青春,音乐,励志" data-tags="乐队,街头文化,追梦,现实">
+  <a class="movie-card__cover" href="movies/movie-0698.html">
+    <img src="./98.jpg" alt="后街梦" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0698.html">后街梦</a></h3>
+    <p>五个被学校开除的“坏学生”在城中村后街组建乐队,意外火遍了全网。</p>
+    <div class="tag-list"><span>乐队</span><span>街头文化</span><span>追梦</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="生命如尘" data-region="法国" data-type="电影" data-year="2025" data-genre="剧情,音乐,文艺" data-tags="绝症,交响乐,父女情,生命意义,催泪">
+  <a class="movie-card__cover" href="movies/movie-0722.html">
+    <img src="./122.jpg" alt="生命如尘" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 法国</div>
+    <h3><a href="movies/movie-0722.html">生命如尘</a></h3>
+    <p>被确诊只剩三个月寿命的指挥家,决定为年幼女儿办一场“看不见的交响乐”,让音符替自己活下去。</p>
+    <div class="tag-list"><span>绝症</span><span>交响乐</span><span>父女情</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="共谱恋曲" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="爱情、音乐" data-tags="音乐,治愈,都市,梦想,成长">
+  <a class="movie-card__cover" href="movies/movie-0804.html">
+    <img src="./54.jpg" alt="共谱恋曲" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0804.html">共谱恋曲</a></h3>
+    <p>落魄钢琴家与失声歌手因一次意外的街头合奏,决定共同完成一首改变命运的原创歌曲。</p>
+    <div class="tag-list"><span>音乐</span><span>治愈</span><span>都市</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="慈善星辉布公仔" data-region="中国香港" data-type="电影" data-year="1988" data-genre="喜剧,家庭,音乐" data-tags="布公仔,慈善晚会,绑架,明星客串">
+  <a class="movie-card__cover" href="movies/movie-0805.html">
+    <img src="./55.jpg" alt="慈善星辉布公仔" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1988 · 中国香港</div>
+    <h3><a href="movies/movie-0805.html">慈善星辉布公仔</a></h3>
+    <p>一场慈善晚会前,所有明星都被绑架了,顶替他们上台的是——一群布公仔。</p>
+    <div class="tag-list"><span>布公仔</span><span>慈善晚会</span><span>绑架</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="钢琴之神" data-region="以色列/德国" data-type="电影" data-year="2024" data-genre="剧情/音乐/家庭" data-tags="天才儿童,钢琴,家庭控制,心理惊悚,犹太家庭">
+  <a class="movie-card__cover" href="movies/movie-0918.html">
+    <img src="./18.jpg" alt="钢琴之神" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 以色列/德国</div>
+    <h3><a href="movies/movie-0918.html">钢琴之神</a></h3>
+    <p>七岁的钢琴天才被全家人视为“神的礼物”,直到有一天他在演出前拒绝触碰琴键,闭口不言。</p>
+    <div class="tag-list"><span>天才儿童</span><span>钢琴</span><span>家庭控制</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="夜莺之歌" data-region="德国/波兰" data-type="电影" data-year="2026" data-genre="剧情,历史,音乐" data-tags="二战,奥斯维辛,女囚,音乐救赎">
+  <a class="movie-card__cover" href="movies/movie-0987.html">
+    <img src="./87.jpg" alt="夜莺之歌" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 德国/波兰</div>
+    <h3><a href="movies/movie-0987.html">夜莺之歌</a></h3>
+    <p>在奥斯维辛集中营,一位犹太女歌手被迫为纳粹军官演唱,她决定将每一次歌唱都变成对死亡的抵抗。</p>
+    <div class="tag-list"><span>二战</span><span>奥斯维辛</span><span>女囚</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="摇滚城市底特律" data-region="美国" data-type="电影" data-year="2025" data-genre="音乐/喜剧/剧情" data-tags="摇滚精神,城市复兴,乐队重组">
+  <a class="movie-card__cover" href="movies/movie-1011.html">
+    <img src="./111.jpg" alt="摇滚城市底特律" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-1011.html">摇滚城市底特律</a></h3>
+    <p>底特律破产十年后,五个已经变成油腻中年的前摇滚明星,为了拯救城市的最后一块音乐圣地而重组。</p>
+    <div class="tag-list"><span>摇滚精神</span><span>城市复兴</span><span>乐队重组</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="听见歌 再唱" data-region="中国台湾" data-type="电影" data-year="2025" data-genre="音乐/剧情" data-tags="失聪,合唱团,治愈,师生,真实改编">
+  <a class="movie-card__cover" href="movies/movie-1121.html">
+    <img src="./71.jpg" alt="听见歌 再唱" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国台湾</div>
+    <h3><a href="movies/movie-1121.html">听见歌 再唱</a></h3>
+    <p>失聪女孩凭借振动感知音律,带领一群被嘲笑“五音不全”的留守儿童闯进全国合唱大赛。</p>
+    <div class="tag-list"><span>失聪</span><span>合唱团</span><span>治愈</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="匪帮说唱传奇" data-region="美国" data-type="电影" data-year="2022" data-genre="剧情,音乐,传记" data-tags="嘻哈,街头,底层奋斗,真实改编">
+  <a class="movie-card__cover" href="movies/movie-1155.html">
+    <img src="./105.jpg" alt="匪帮说唱传奇" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2022 · 美国</div>
+    <h3><a href="movies/movie-1155.html">匪帮说唱传奇</a></h3>
+    <p>20 世纪 90 年代底特律,三个街头混混用超市收银台当鼓机,录了一张改变嘻哈史的传奇 mixtape。</p>
+    <div class="tag-list"><span>嘻哈</span><span>街头</span><span>底层奋斗</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="2024青春芒果节" data-region="中国大陆" data-type="综艺/晚会" data-year="2024" data-genre="真人秀,音乐" data-tags="直播,偶像,狂欢">
+  <a class="movie-card__cover" href="movies/movie-1171.html">
+    <img src="./121.jpg" alt="2024青春芒果节" loading="lazy">
+    
+    <span class="movie-card__type">综艺/晚会</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1171.html">2024青春芒果节</a></h3>
+    <p>一次直播事故导致所有节目被取消,明星和素人观众在空荡荡的场馆里,上演了一场自发的“自救演唱会”。</p>
+    <div class="tag-list"><span>直播</span><span>偶像</span><span>狂欢</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="云中四步" data-region="美国/意大利" data-type="电影" data-year="2024" data-genre="剧情、音乐、爱情" data-tags="芭蕾舞,自我救赎,中年重启">
+  <a class="movie-card__cover" href="movies/movie-1182.html">
+    <img src="./132.jpg" alt="云中四步" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 美国/意大利</div>
+    <h3><a href="movies/movie-1182.html">云中四步</a></h3>
+    <p>四十岁的首席芭蕾舞者因伤退役,心灰意冷回到西西里老家,却发现自己十几岁的私生女正在酒馆跳钢管舞维生。</p>
+    <div class="tag-list"><span>芭蕾舞</span><span>自我救赎</span><span>中年重启</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="一曲相思情未了" data-region="中国香港" data-type="电影" data-year="1989" data-genre="爱情/音乐" data-tags="红颜薄命,作曲家,绝唱,香港老歌">
+  <a class="movie-card__cover" href="movies/movie-1192.html">
+    <img src="./142.jpg" alt="一曲相思情未了" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1989 · 中国香港</div>
+    <h3><a href="movies/movie-1192.html">一曲相思情未了</a></h3>
+    <p>他是无人问津的作曲人,她是夜总会的最后一位歌女,一首未完成的歌成了绝唱。</p>
+    <div class="tag-list"><span>红颜薄命</span><span>作曲家</span><span>绝唱</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="摇摆少女" data-region="日本" data-type="电影" data-year="2025" data-genre="剧情,音乐,青春" data-tags="爵士乐,成长,乡村">
+  <a class="movie-card__cover" href="movies/movie-1245.html">
+    <img src="./45.jpg" alt="摇摆少女" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 日本</div>
+    <h3><a href="movies/movie-1245.html">摇摆少女</a></h3>
+    <p>乡下女高中生误闯爵士乐世界,用捡来的破铜烂铁组成最吵乐队。</p>
+    <div class="tag-list"><span>爵士乐</span><span>成长</span><span>乡村</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="颠倒众生一美人" data-region="美国" data-type="电影" data-year="2025" data-genre="剧情,喜剧,音乐" data-tags="变装皇后,性别议题,父子,百老汇">
+  <a class="movie-card__cover" href="movies/movie-1264.html">
+    <img src="./64.jpg" alt="颠倒众生一美人" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-1264.html">颠倒众生一美人</a></h3>
+    <p>一个保守的退伍老兵,为了养活孙子,被迫男扮女装在小酒吧当变装歌手,没想到一夜爆红。</p>
+    <div class="tag-list"><span>变装皇后</span><span>性别议题</span><span>父子</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="乐坛插班生粤语" data-region="香港" data-type="剧集" data-year="1997" data-genre="喜剧/音乐" data-tags="粤语,娱乐圈,草根逆袭,怀旧">
+  <a class="movie-card__cover" href="movies/movie-1307.html">
+    <img src="./107.jpg" alt="乐坛插班生粤语" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1997 · 香港</div>
+    <h3><a href="movies/movie-1307.html">乐坛插班生粤语</a></h3>
+    <p>茶餐厅外卖仔误打误撞进入娱乐圈,用一口“唔咸唔淡”的粤语和真性情,搅翻了整个乐坛。</p>
+    <div class="tag-list"><span>粤语</span><span>娱乐圈</span><span>草根逆袭</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="六指琴魔2004" data-region="中国大陆/香港" data-type="电影" data-year="2004" data-genre="动作/武侠/音乐" data-tags="天魔琴,复仇,六指琴魔,音波功">
+  <a class="movie-card__cover" href="movies/movie-1353.html">
+    <img src="./3.jpg" alt="六指琴魔2004" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2004 · 中国大陆/香港</div>
+    <h3><a href="movies/movie-1353.html">六指琴魔2004</a></h3>
+    <p>十五年前被灭门的琴家遗孤练成天魔琴,化身“六指琴魔”向六大派展开音波复仇。</p>
+    <div class="tag-list"><span>天魔琴</span><span>复仇</span><span>六指琴魔</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我们的歌第一季" data-region="中国大陆" data-type="综艺/音乐" data-year="2025" data-genre="音乐/真人秀" data-tags="代际合唱,金曲改编,盲选配对,音乐情怀">
+  <a class="movie-card__cover" href="movies/movie-1472.html">
+    <img src="./122.jpg" alt="我们的歌第一季" loading="lazy">
+    
+    <span class="movie-card__type">综艺/音乐</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1472.html">我们的歌第一季</a></h3>
+    <p>老牌唱将与新声歌手在盲选箱中“听音识人”,用一首首时光金曲改写乐坛秩序。</p>
+    <div class="tag-list"><span>代际合唱</span><span>金曲改编</span><span>盲选配对</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="沃特斯塔克" data-region="美国" data-type="电影" data-year="2004" data-genre="纪录片/音乐" data-tags="伍德斯托克,1969,摇滚乐,反文化运动,理想主义">
+  <a class="movie-card__cover" href="movies/movie-1510.html">
+    <img src="./10.jpg" alt="沃特斯塔克" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2004 · 美国</div>
+    <h3><a href="movies/movie-1510.html">沃特斯塔克</a></h3>
+    <p>五十万青年在泥泞中创造了三天和平与音乐,却不知那是乌托邦最后的狂欢。</p>
+    <div class="tag-list"><span>伍德斯托克</span><span>1969</span><span>摇滚乐</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="编制序曲:社区乐团的故事" data-region="日本" data-type="剧集" data-year="2026" data-genre="剧情/音乐" data-tags="群像,治愈,梦想,社区">
+  <a class="movie-card__cover" href="movies/movie-1559.html">
+    <img src="./59.jpg" alt="编制序曲:社区乐团的故事" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 日本</div>
+    <h3><a href="movies/movie-1559.html">编制序曲:社区乐团的故事</a></h3>
+    <p>一群毫无音乐基础的社会边缘人,为了挽救即将关闭的社区中心,组建了史上最混乱的交响乐团。</p>
+    <div class="tag-list"><span>群像</span><span>治愈</span><span>梦想</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我们的英摇时光" data-region="英国" data-type="剧集" data-year="2024" data-genre="剧情/音乐/青春" data-tags="英伦摇滚,90年代,乐队,友情,怀旧">
+  <a class="movie-card__cover" href="movies/movie-1622.html">
+    <img src="./122.jpg" alt="我们的英摇时光" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 英国</div>
+    <h3><a href="movies/movie-1622.html">我们的英摇时光</a></h3>
+    <p>1994年,英国五个高中生因为一张Oasis的专辑组建了一支垃圾乐队,他们以为自己即将改变世界。</p>
+    <div class="tag-list"><span>英伦摇滚</span><span>90年代</span><span>乐队</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="声生不息 舞台纯享版" data-region="中国大陆" data-type="综艺" data-year="2025" data-genre="音乐/真人秀" data-tags="竞演,怀旧金曲,全开麦,顶级舞美">
+  <a class="movie-card__cover" href="movies/movie-1645.html">
+    <img src="./145.jpg" alt="声生不息 舞台纯享版" loading="lazy">
+    
+    <span class="movie-card__type">综艺</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1645.html">声生不息 舞台纯享版</a></h3>
+    <p>三十组新老歌手同台竞技,没有淘汰,只有用声音决胜负的纯粹舞台。</p>
+    <div class="tag-list"><span>竞演</span><span>怀旧金曲</span><span>全开麦</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我仍然坚信......" data-region="美国" data-type="电影" data-year="2019" data-genre="爱情/音乐" data-tags="信仰,绝症爱情,真实改编,催泪">
+  <a class="movie-card__cover" href="movies/movie-1844.html">
+    <img src="./44.jpg" alt="我仍然坚信......" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2019 · 美国</div>
+    <h3><a href="movies/movie-1844.html">我仍然坚信......</a></h3>
+    <p>高中情侣因癌症面临生死离别,他用一首歌兑现了“我仍然坚信爱情”的诺言。</p>
+    <div class="tag-list"><span>信仰</span><span>绝症爱情</span><span>真实改编</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="密西西比风情画" data-region="美国" data-type="电影" data-year="2025" data-genre="剧情,传记,音乐" data-tags="蓝调音乐,种族歧视,姐妹情,时代变迁,公路音乐">
+  <a class="movie-card__cover" href="movies/movie-1931.html">
+    <img src="./131.jpg" alt="密西西比风情画" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 美国</div>
+    <h3><a href="movies/movie-1931.html">密西西比风情画</a></h3>
+    <p>上世纪60年代,一对黑人姐妹从密西西比三角洲出发,带着一把破吉他和一盒录音带,奔向芝加哥,也奔向自由。</p>
+    <div class="tag-list"><span>蓝调音乐</span><span>种族歧视</span><span>姐妹情</span></div>
+  </div>
+</article>
+    </div>
+    <div class="empty-state" data-empty-state>没有找到匹配的影片</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>热门电影大全</h2>
+      <p>热门电影大全栏目围绕热度较高的影片进行归类，包含热门片库、精选合集和高分电影内容，适合集中浏览。</p>
+    </div>
+    <div>
+      <h3>快速浏览</h3>
+      <a href="./catalog.html">热门片库</a>
+      <a href="./categories.html">精选分类</a>
+      <a href="./ranking.html">热度排行</a>
+    </div>
+    <div>
+      <h3>栏目内容</h3>
+      <a href="./category-drama.html">剧情电影</a>
+      <a href="./category-comedy.html">喜剧影片</a>
+      <a href="./category-action.html">动作片库</a>
+    </div>
+    <div>
+      <h3>网站信息</h3>
+      <a href="./about.html">关于我们</a>
+      <a href="./support.html">服务支持</a>
+      <a href="./copyright.html">版权声明</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 热门电影大全 · 热门影片在线点播</div>
+</footer>
+
+  <script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
