@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+<title>都市片库-热门电影大全</title>
+  <meta name="description" content="都市片库栏目，精选都市题材影片与剧集，覆盖热门片库、口碑作品和高分内容。">
+  <meta name="keywords" content="都市片库,热门影片,电影大全,影片点播">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="./index.html" aria-label="热门电影大全">
+      <span class="brand__mark">▶</span>
+      <span class="brand__text">
+        <strong>热门电影大全</strong>
+        <small>热门影片在线点播</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">片库</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行</a>
+      <a href="./category-movies.html">电影</a>
+      <a href="./category-series.html">剧集</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开菜单">☰</button>
+  </div>
+</header>
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="index.html">首页</a><span>/</span><a href="categories.html">分类</a><span>/</span><span>都市片库</span></nav>
+    <h1>都市片库</h1>
+    <p>精选都市题材影片与剧集，覆盖热门片库、口碑作品和高分内容。</p>
+  </div>
+</section>
+<main class="section">
+  <div class="container">
+    
+<div class="filter-panel" data-filter-panel>
+  <div class="filter-panel__top">
+    <h2>都市片库筛选</h2>
+    <p class="filter-count" data-filter-count></p>
+  </div>
+  <div class="filter-grid">
+    <label>
+      <span>关键词</span>
+      <input type="search" name="q" data-filter-text placeholder="搜索片名、地区、类型、标签">
+    </label>
+    <label>
+      <span>年份</span>
+      <select data-filter-year>
+        <option value="">全部年份</option>
+        <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1983">1983</option><option value="1982">1982</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1971">1971</option><option value="1970">1970</option><option value="1968">1968</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1959">1959</option><option value="1957">1957</option><option value="1956">1956</option><option value="1954">1954</option><option value="1947">1947</option><option value="1945">1945</option><option value="1932">1932</option>
+      </select>
+    </label>
+    <label>
+      <span>地区</span>
+      <select data-filter-region>
+        <option value="">全部地区</option>
+        <option value="中国大陆">中国大陆</option><option value="美国">美国</option><option value="日本">日本</option><option value="中国香港">中国香港</option><option value="韩国">韩国</option><option value="英国">英国</option><option value="中国台湾">中国台湾</option><option value="法国">法国</option><option value="中国">中国</option><option value="香港">香港</option><option value="泰国">泰国</option><option value="西班牙">西班牙</option><option value="德国">德国</option><option value="印度">印度</option><option value="俄罗斯">俄罗斯</option><option value="意大利">意大利</option><option value="法国/比利时">法国/比利时</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国内地">中国内地</option><option value="加拿大">加拿大</option><option value="台湾">台湾</option><option value="美国/英国">美国/英国</option><option value="法国/德国">法国/德国</option><option value="英国/美国">英国/美国</option><option value="澳大利亚">澳大利亚</option><option value="法国/意大利">法国/意大利</option><option value="波兰">波兰</option><option value="印度尼西亚">印度尼西亚</option><option value="中国大陆/中国香港">中国大陆/中国香港</option><option value="巴西">巴西</option>
+      </select>
+    </label>
+    <label>
+      <span>类型</span>
+      <select data-filter-type>
+        <option value="">全部类型</option>
+        <option value="电影">电影</option><option value="剧集">剧集</option><option value="电视剧">电视剧</option><option value="动画电影">动画电影</option><option value="动画剧集">动画剧集</option><option value="综艺">综艺</option><option value="纪录片">纪录片</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="电影/动画">电影/动画</option><option value="动画">动画</option><option value="动漫">动漫</option><option value="TV剧集">TV剧集</option><option value="网剧">网剧</option><option value="剧集/动画">剧集/动画</option><option value="TV 剧集">TV 剧集</option><option value="动画短片">动画短片</option><option value="短剧">短剧</option><option value="综艺/晚会">综艺/晚会</option><option value="剧集/第一季">剧集/第一季</option><option value="美剧">美剧</option><option value="剧集 动画">剧集 动画</option><option value="电视节目/纪录片">电视节目/纪录片</option><option value="武侠/动作">武侠/动作</option><option value="动作/西部">动作/西部</option><option value="剧集 (6集)">剧集 (6集)</option><option value="综艺/真人秀">综艺/真人秀</option><option value="迷你剧">迷你剧</option><option value="动画/动态漫">动画/动态漫</option><option value="TV Series">TV Series</option>
+      </select>
+    </label>
+  </div>
+</div>
+    <div class="movie-grid">
+      
+<article class="movie-card" data-movie-card data-title="贺少的闪婚暖妻第三季" data-region="中国大陆" data-type="剧集" data-year="2025" data-genre="爱情,剧情,都市" data-tags="豪门,契约婚姻,带球跑,甜宠">
+  <a class="movie-card__cover" href="movies/movie-0127.html">
+    <img src="./127.jpg" alt="贺少的闪婚暖妻第三季" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-0127.html">贺少的闪婚暖妻第三季</a></h3>
+    <p>贺少和暖笙的婚姻再次面临危机,一个自称是贺少初恋的女人的出现,以及暖笙被篡改的孕检报告,让一切陷入混乱。</p>
+    <div class="tag-list"><span>豪门</span><span>契约婚姻</span><span>带球跑</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="身心灵清洁师" data-region="中国香港" data-type="电影" data-year="2024" data-genre="剧情/奇幻/都市" data-tags="情绪,清洁工,负能量,超能力,治郁">
+  <a class="movie-card__cover" href="movies/movie-0265.html">
+    <img src="./115.jpg" alt="身心灵清洁师" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国香港</div>
+    <h3><a href="movies/movie-0265.html">身心灵清洁师</a></h3>
+    <p>一名自称“情绪清道夫”的男人能吃掉别人的痛苦记忆,但他自己的大脑里有一块永远无法愈合的腐烂疮口。</p>
+    <div class="tag-list"><span>情绪</span><span>清洁工</span><span>负能量</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="有房有车 第二季" data-region="中国大陆" data-type="剧集" data-year="2026" data-genre="喜剧,家庭,都市" data-tags="夫妻,房贷,职场,搞笑,生活">
+  <a class="movie-card__cover" href="movies/movie-0272.html">
+    <img src="./122.jpg" alt="有房有车 第二季" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-0272.html">有房有车 第二季</a></h3>
+    <p>房贷刚还完,学区房危机接踵而至,鸡飞狗跳的夫妻二人被迫再次踏上鸡血奋斗路。</p>
+    <div class="tag-list"><span>夫妻</span><span>房贷</span><span>职场</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="北京卫视养生堂" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="悬疑/都市/奇幻" data-tags="养生陷阱,邪教组织,卧底记者,离奇死亡">
+  <a class="movie-card__cover" href="movies/movie-0354.html">
+    <img src="./54.jpg" alt="北京卫视养生堂" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0354.html">北京卫视养生堂</a></h3>
+    <p>一档火爆的养生节目背后,竟藏着以生命为代价的古老献祭仪式。</p>
+    <div class="tag-list"><span>养生陷阱</span><span>邪教组织</span><span>卧底记者</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="星星星" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="奇幻、爱情、都市" data-tags="许愿,偶像失格,粉丝逆袭,平行时空,治愈">
+  <a class="movie-card__cover" href="movies/movie-0388.html">
+    <img src="./88.jpg" alt="星星星" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-0388.html">星星星</a></h3>
+    <p>狂热追星女孩意外获得了“每天能让三个明星倒霉”的超能力,却因此卷入了偶像的真实人生。</p>
+    <div class="tag-list"><span>许愿</span><span>偶像失格</span><span>粉丝逆袭</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="醋溜族" data-region="中国台湾" data-type="剧集" data-year="1995" data-genre="喜剧/爱情/都市" data-tags="朱德庸漫画改编,都市男女,恋爱兵法,单元剧,台式幽默">
+  <a class="movie-card__cover" href="movies/movie-0884.html">
+    <img src="./134.jpg" alt="醋溜族" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">1995 · 中国台湾</div>
+    <h3><a href="movies/movie-0884.html">醋溜族</a></h3>
+    <p>改编自朱德庸四格漫画,讲述一群都市年轻男女在爱情里使尽小聪明、吃尽醋、最后发现真爱就在身边的故事。</p>
+    <div class="tag-list"><span>朱德庸漫画改编</span><span>都市男女</span><span>恋爱兵法</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="学警出更国语" data-region="中国香港" data-type="剧集" data-year="2007" data-genre="警匪/都市" data-tags="卧底,兄弟情,职场成长">
+  <a class="movie-card__cover" href="movies/movie-0909.html">
+    <img src="./9.jpg" alt="学警出更国语" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2007 · 中国香港</div>
+    <h3><a href="movies/movie-0909.html">学警出更国语</a></h3>
+    <p>两个性格迥异的警校菜鸟,在毕业后第一次卧底任务中就卷入了黑帮的权力洗牌。</p>
+    <div class="tag-list"><span>卧底</span><span>兄弟情</span><span>职场成长</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="欢乐颂5" data-region="中国大陆" data-type="电视剧" data-year="2025" data-genre="剧情/都市/女性" data-tags="女性群像,都市生存,友情,成长">
+  <a class="movie-card__cover" href="movies/movie-0913.html">
+    <img src="./13.jpg" alt="欢乐颂5" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-0913.html">欢乐颂5</a></h3>
+    <p>欢乐颂22楼的五个女孩进入30+,房子、婚姻、父母、职场,没有一个是省心的。</p>
+    <div class="tag-list"><span>女性群像</span><span>都市生存</span><span>友情</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="哈啰,我叫朵莉丝" data-region="中国大陆" data-type="剧集" data-year="2026" data-genre="都市,爱情" data-tags="女性成长,姐弟恋,职场逆袭,轻喜剧">
+  <a class="movie-card__cover" href="movies/movie-1035.html">
+    <img src="./135.jpg" alt="哈啰,我叫朵莉丝" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-1035.html">哈啰,我叫朵莉丝</a></h3>
+    <p>35岁被裁员的“大龄废柴”朵莉丝,为了保住房产,被迫伪装成22岁实习生重返职场,却爱上了公司24岁的CEO。</p>
+    <div class="tag-list"><span>女性成长</span><span>姐弟恋</span><span>职场逆袭</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="街头素花姐第一季" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="剧情/都市/女性" data-tags="摆摊,市井烟火,女性互助,逆袭">
+  <a class="movie-card__cover" href="movies/movie-1045.html">
+    <img src="./145.jpg" alt="街头素花姐第一季" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1045.html">街头素花姐第一季</a></h3>
+    <p>一个穿碎花裙卖炒面的单亲妈妈,成了整条美食街的“地下城管”,连收保护费的大哥都找她调解离婚。</p>
+    <div class="tag-list"><span>摆摊</span><span>市井烟火</span><span>女性互助</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="巴黎夜未眠" data-region="法国" data-type="电影" data-year="2026" data-genre="爱情/奇幻/都市" data-tags="失眠症,时间停滞,浪漫邂逅,存在主义">
+  <a class="movie-card__cover" href="movies/movie-1154.html">
+    <img src="./104.jpg" alt="巴黎夜未眠" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 法国</div>
+    <h3><a href="movies/movie-1154.html">巴黎夜未眠</a></h3>
+    <p>巴黎,一个睡不着觉的女孩发现,凌晨 3:23 到 3:25 之间,整个城市的时间会静止两分钟。</p>
+    <div class="tag-list"><span>失眠症</span><span>时间停滞</span><span>浪漫邂逅</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="先生的朋友圈" data-region="中国大陆" data-type="网络剧" data-year="2018" data-genre="悬疑/都市/剧情" data-tags="朋友圈,悬疑,出轨,职场,人设崩塌">
+  <a class="movie-card__cover" href="movies/movie-1178.html">
+    <img src="./128.jpg" alt="先生的朋友圈" loading="lazy">
+    
+    <span class="movie-card__type">网络剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2018 · 中国大陆</div>
+    <h3><a href="movies/movie-1178.html">先生的朋友圈</a></h3>
+    <p>公司副总一朝昏迷,他的朋友圈却自动发了一条“我是凶手”,全公司的人都慌了。</p>
+    <div class="tag-list"><span>朋友圈</span><span>悬疑</span><span>出轨</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="奇妙世纪" data-region="中国大陆" data-type="剧集" data-year="2014" data-genre="奇幻,悬疑,都市" data-tags="单元剧,都市传说,高概念,脑洞">
+  <a class="movie-card__cover" href="movies/movie-1365.html">
+    <img src="./15.jpg" alt="奇妙世纪" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2014 · 中国大陆</div>
+    <h3><a href="movies/movie-1365.html">奇妙世纪</a></h3>
+    <p>一座看似普通的现代都市里,每个普通人身边都可能发生违反物理定律的“小故障”。</p>
+    <div class="tag-list"><span>单元剧</span><span>都市传说</span><span>高概念</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="寻爱的女人" data-region="中国大陆" data-type="剧集" data-year="2026" data-genre="爱情/都市/女性" data-tags="三个女人,公路,相亲,成长">
+  <a class="movie-card__cover" href="movies/movie-1385.html">
+    <img src="./35.jpg" alt="寻爱的女人" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2026 · 中国大陆</div>
+    <h3><a href="movies/movie-1385.html">寻爱的女人</a></h3>
+    <p>三个不同年龄的女人拼车横跨半个中国,各自去寻找“传说中的那个真爱”。</p>
+    <div class="tag-list"><span>三个女人</span><span>公路</span><span>相亲</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="生活像阳光一样灿烂" data-region="中国大陆" data-type="剧集" data-year="2020" data-genre="喜剧,都市,爱情" data-tags="都市轻喜剧,大龄剩女,再婚家庭,阳光正能量,宋佳">
+  <a class="movie-card__cover" href="movies/movie-1506.html">
+    <img src="./6.jpg" alt="生活像阳光一样灿烂" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2020 · 中国大陆</div>
+    <h3><a href="movies/movie-1506.html">生活像阳光一样灿烂</a></h3>
+    <p>白领剩女嫁给了带着青春期女儿的离异高管,她以为生活要灿烂了,结果天天上演“修罗场”。</p>
+    <div class="tag-list"><span>都市轻喜剧</span><span>大龄剩女</span><span>再婚家庭</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="平静城市" data-region="新加坡" data-type="电影" data-year="2023" data-genre="剧情、都市" data-tags="失眠,城市,孤独">
+  <a class="movie-card__cover" href="movies/movie-1558.html">
+    <img src="./58.jpg" alt="平静城市" loading="lazy">
+    
+    <span class="movie-card__type">电影</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 新加坡</div>
+    <h3><a href="movies/movie-1558.html">平静城市</a></h3>
+    <p>整座城市的人都患上了集体失眠症,只有一位深夜电台主播还醒着,他为所有人讲故事。</p>
+    <div class="tag-list"><span>失眠</span><span>城市</span><span>孤独</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="卷弗第二季" data-region="中国大陆" data-type="电视剧" data-year="2025" data-genre="喜剧,职场,都市" data-tags="打工族,内卷,搞笑,职场生存,反内卷">
+  <a class="movie-card__cover" href="movies/movie-1582.html">
+    <img src="./82.jpg" alt="卷弗第二季" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2025 · 中国大陆</div>
+    <h3><a href="movies/movie-1582.html">卷弗第二季</a></h3>
+    <p>上一季的反卷斗士唐弗升职成了部门总监,却发现自己正在变成当初最讨厌的那种人。</p>
+    <div class="tag-list"><span>打工族</span><span>内卷</span><span>搞笑</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="王子富愁记" data-region="中国大陆" data-type="剧集" data-year="2018" data-genre="喜剧/都市/爱情" data-tags="破产,富二代,合租,沙雕">
+  <a class="movie-card__cover" href="movies/movie-1656.html">
+    <img src="./6.jpg" alt="王子富愁记" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2018 · 中国大陆</div>
+    <h3><a href="movies/movie-1656.html">王子富愁记</a></h3>
+    <p>亿万富豪之子一夜破产,被迫与四个奇葩租客挤在老破小,却发现穷日子比富生活快乐一百倍。</p>
+    <div class="tag-list"><span>破产</span><span>富二代</span><span>合租</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="和前任的第二次恋爱" data-region="中国大陆" data-type="剧集" data-year="2023" data-genre="爱情/都市" data-tags="破镜重圆,办公室恋情,治愈,欢喜冤家">
+  <a class="movie-card__cover" href="movies/movie-1696.html">
+    <img src="./46.jpg" alt="和前任的第二次恋爱" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国大陆</div>
+    <h3><a href="movies/movie-1696.html">和前任的第二次恋爱</a></h3>
+    <p>分手五年的冤家,意外成为同一家公司的创意总监和总经理,为了不丢面子,他们假装恩爱。</p>
+    <div class="tag-list"><span>破镜重圆</span><span>办公室恋情</span><span>治愈</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="守护者联盟" data-region="中国大陆" data-type="剧集" data-year="2024" data-genre="动作、刑侦、都市" data-tags="便衣警察,卧底,黑吃黑">
+  <a class="movie-card__cover" href="movies/movie-1757.html">
+    <img src="./107.jpg" alt="守护者联盟" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国大陆</div>
+    <h3><a href="movies/movie-1757.html">守护者联盟</a></h3>
+    <p>五个被警队开除的“废物”,组建地下联盟,专钓那些法律碰不到的人。</p>
+    <div class="tag-list"><span>便衣警察</span><span>卧底</span><span>黑吃黑</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="我们都要好好的" data-region="中国" data-type="电视剧" data-year="2024" data-genre="剧情,都市" data-tags="抑郁症,产后,职场,治愈">
+  <a class="movie-card__cover" href="movies/movie-1979.html">
+    <img src="./29.jpg" alt="我们都要好好的" loading="lazy">
+    
+    <span class="movie-card__type">电视剧</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2024 · 中国</div>
+    <h3><a href="movies/movie-1979.html">我们都要好好的</a></h3>
+    <p>完美妻子产后抑郁,精英丈夫工作狂,两人在离婚冷静期内被迫重新学习如何“好好生活”。</p>
+    <div class="tag-list"><span>抑郁症</span><span>产后</span><span>职场</span></div>
+  </div>
+</article>
+<article class="movie-card" data-movie-card data-title="遇见幸福" data-region="中国大陆" data-type="剧集" data-year="2023" data-genre="都市,家庭,情感" data-tags="当代女性,温情,现实主义">
+  <a class="movie-card__cover" href="movies/movie-1997.html">
+    <img src="./47.jpg" alt="遇见幸福" loading="lazy">
+    
+    <span class="movie-card__type">剧集</span>
+  </a>
+  <div class="movie-card__body">
+    <div class="movie-card__meta">2023 · 中国大陆</div>
+    <h3><a href="movies/movie-1997.html">遇见幸福</a></h3>
+    <p>三位性格迥异的发小在四十不惑之年集体失业、失婚、失梦,却在菜市场里重新“摆摊”创业。</p>
+    <div class="tag-list"><span>当代女性</span><span>温情</span><span>现实主义</span></div>
+  </div>
+</article>
+    </div>
+    <div class="empty-state" data-empty-state>没有找到匹配的影片</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>热门电影大全</h2>
+      <p>热门电影大全栏目围绕热度较高的影片进行归类，包含热门片库、精选合集和高分电影内容，适合集中浏览。</p>
+    </div>
+    <div>
+      <h3>快速浏览</h3>
+      <a href="./catalog.html">热门片库</a>
+      <a href="./categories.html">精选分类</a>
+      <a href="./ranking.html">热度排行</a>
+    </div>
+    <div>
+      <h3>栏目内容</h3>
+      <a href="./category-drama.html">剧情电影</a>
+      <a href="./category-comedy.html">喜剧影片</a>
+      <a href="./category-action.html">动作片库</a>
+    </div>
+    <div>
+      <h3>网站信息</h3>
+      <a href="./about.html">关于我们</a>
+      <a href="./support.html">服务支持</a>
+      <a href="./copyright.html">版权声明</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 热门电影大全 · 热门影片在线点播</div>
+</footer>
+
+  <script src="./assets/app.js"></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5033714,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5033714&101" alt="unique visitors counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+</html>
